@@ -1,0 +1,101 @@
+{{ 'compare-banner.css' | asset_url | stylesheet_tag }}
+
+<compare-drawer class="compare-banner color-scheme-1">
+  <div class="compare-banner__wrapper page-width">
+    <div class="compare-banner__top-text">
+      <span class="compare-banner__top-title h5">
+        Compare Products
+      </span>
+      <div class="compare-banner__top-description">
+        Select 2 - 4 products to compare
+      </div>
+    </div>
+
+    <div class="compare-banner__top-btns">
+      <button class="compare-banner__top-btn-compare button disabled">
+        <span>Compare (<span class="compare-banner__top-counter">0</span>)</span>
+      </button>
+
+			{%- liquid
+				assign compare_button_style = ''
+				assign compare_button_icon = false
+
+				if settings.compare_button_style == 'link'
+					assign compare_button_style = 'link underlined-link'
+					assign compare_button_icon = false
+				elsif settings.compare_button_style == 'link_icon'
+					assign compare_button_style = 'link animate-arrow link-with-arrow'
+					assign compare_button_icon = true
+				elsif settings.compare_button_style == 'link_hover'
+					assign compare_button_style = 'link link-hover'
+					assign compare_button_icon = false
+				endif
+			-%}
+      <button class="compare-banner__top-btn-compare-clear {{ compare_button_style }}">
+        <span>
+          Clear All Products
+        </span>
+				{% if compare_button_icon %}
+					{% render 'icon-caret' %}
+				{% endif %}
+      </button>
+    </div>
+
+    <div class="compare-banner__top-show-btn">
+      {% render 'icon-caret' %}
+    </div>
+    
+    <div class="compare-banner__product-items">
+      <div class="compare-banner__product-item">
+        <div class="compare-banner__product-item__empty-msg">
+          Select product to compare
+        </div>
+      </div>
+      <div class="compare-banner__product-item">
+        <div class="compare-banner__product-item__empty-msg">
+          Select product to compare
+        </div>
+      </div>
+      <div class="compare-banner__product-item">
+        <div class="compare-banner__product-item__empty-msg">
+          Select product to compare
+        </div>
+      </div>
+      <div class="compare-banner__product-item">
+        <div class="compare-banner__product-item__empty-msg">
+          Select product to compare
+        </div>
+      </div>
+    </div>
+  </div>
+</compare-drawer>
+
+<compare-modal class="compare-modal color-scheme-2">
+
+  <div class="compare-modal-close">
+    {% render 'icon-close' %}
+  </div>
+
+  <div class="compare-modal-wrapper page-width">
+    <div class="compare-modal-header">
+      <h2 class="compare-modal-title">
+        Product Comparison
+      </h2>
+      <button class="clear-compare-modal-products {{ compare_button_style }}">
+        <span>
+          Clear All Products
+        </span>
+
+				{% if compare_button_icon %}
+					{% render 'icon-caret' %}
+				{% endif %}
+      </button>
+    </div>
+
+    {%- render 'loading-spinner' -%}
+
+    <div class="compare-modal-content"> </div>
+  </div>
+</compare-modal>
+
+<script src="{{ 'compare-drawer.js' | asset_url }}" defer="defer"></script>
