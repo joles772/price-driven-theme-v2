@@ -122,6 +122,60 @@
         "border_thickness": 0
       }
     },
+    "bff1f354-16f7-4be2-a816-44e694d864e4": {
+      "type": "testimonials",
+      "blocks": {
+        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "color_scheme": "",
+            "rating_star": 5,
+            "image": "shopify://shop_images/smiling-stylish-couple-in-sunglasses-standing-near-2024-11-17-10-30-38-utc_1.jpg",
+            "full_name": "<strong>Lucas H, London, ON</strong>",
+            "job_title": "Kia Seltos | 2025",
+            "text": "Price Driven made buying my first new car so easy! The transparent pricing gave me confidence, and the pre-negotiated deal saved me hundreds."
+          }
+        },
+        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "color_scheme": "",
+            "rating_star": 5,
+            "image": "shopify://shop_images/stylish-kuwaiti-man-2023-11-27-04-52-32-utc_1.jpg",
+            "full_name": "<strong>Michael S, Vancouver, BC</strong>",
+            "job_title": "Ford Escape | 2024",
+            "text": "Made purchasing a new SUV less stressful than my previous car. Knowing how much discount there is, helps with negotiating the price."
+          }
+        },
+        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "color_scheme": "",
+            "rating_star": 5,
+            "image": "shopify://shop_images/african-american-woman-at-violet-dress-and-cap-2023-11-27-04-58-26-utc_1.jpg",
+            "full_name": "<strong>Olivia P, Winnipeg, MB</strong>",
+            "job_title": "Lexus RX | 2025",
+            "text": "I was able to save money on my Lexus RX through Price Driven. The platform provided all the necessary details to make an informed choice."
+          }
+        }
+      },
+      "block_order": [
+        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-1",
+        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-2",
+        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-3"
+      ],
+      "settings": {
+        "title": "What Our Customers Say",
+        "heading_alignment": "center",
+        "heading_size": "h2",
+        "color_scheme": "",
+        "description": "",
+        "text_size_block": "large",
+        "scrolling_speed": 20,
+        "padding_top": 54,
+        "padding_bottom": 70
+      }
+    },
     "a845fd8c-a661-412b-b2da-7787cec2a078": {
       "type": "collection-tabs",
       "blocks": {
@@ -1009,60 +1063,6 @@
         "padding_bottom": 70
       }
     },
-    "bff1f354-16f7-4be2-a816-44e694d864e4": {
-      "type": "testimonials",
-      "blocks": {
-        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-1": {
-          "type": "testimonial",
-          "settings": {
-            "color_scheme": "",
-            "rating_star": 5,
-            "image": "shopify://shop_images/smiling-stylish-couple-in-sunglasses-standing-near-2024-11-17-10-30-38-utc_1.jpg",
-            "full_name": "<strong>Lucas H, London, ON</strong>",
-            "job_title": "Kia Seltos | 2025",
-            "text": "Price Driven made buying my first new car so easy! The transparent pricing gave me confidence, and the pre-negotiated deal saved me hundreds."
-          }
-        },
-        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-2": {
-          "type": "testimonial",
-          "settings": {
-            "color_scheme": "",
-            "rating_star": 5,
-            "image": "shopify://shop_images/stylish-kuwaiti-man-2023-11-27-04-52-32-utc_1.jpg",
-            "full_name": "<strong>Michael S, Vancouver, BC</strong>",
-            "job_title": "Ford Escape | 2024",
-            "text": "Made purchasing a new SUV less stressful than my previous car. Knowing how much discount there is, helps with negotiating the price."
-          }
-        },
-        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-3": {
-          "type": "testimonial",
-          "settings": {
-            "color_scheme": "",
-            "rating_star": 5,
-            "image": "shopify://shop_images/african-american-woman-at-violet-dress-and-cap-2023-11-27-04-58-26-utc_1.jpg",
-            "full_name": "<strong>Olivia P, Winnipeg, MB</strong>",
-            "job_title": "Lexus RX | 2025",
-            "text": "I was able to save money on my Lexus RX through Price Driven. The platform provided all the necessary details to make an informed choice."
-          }
-        }
-      },
-      "block_order": [
-        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-1",
-        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-2",
-        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-3"
-      ],
-      "settings": {
-        "title": "Our Clients & Their Experience",
-        "heading_alignment": "center",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "description": "",
-        "text_size_block": "large",
-        "scrolling_speed": 20,
-        "padding_top": 54,
-        "padding_bottom": 70
-      }
-    },
     "ss_feature_22_qYzj98": {
       "type": "ss-feature-22",
       "blocks": {
@@ -1323,6 +1323,7 @@
     "video_Ex8RYQ",
     "rich_text_DfnJHV",
     "ss_wave_2_WUU6xq",
+    "bff1f354-16f7-4be2-a816-44e694d864e4",
     "a845fd8c-a661-412b-b2da-7787cec2a078",
     "ss_steps_8_WVVfXQ",
     "ss_comparison_table_17_xUFW3Q",
@@ -1333,7 +1334,6 @@
     "355af80a-5c77-40fb-83a7-dbff9c1c8ef4",
     "multicolumn_ELYmka",
     "0db7c52b-c061-4fc2-a900-da70515be652",
-    "bff1f354-16f7-4be2-a816-44e694d864e4",
     "ss_feature_22_qYzj98",
     "custom_liquid_tzBfN7",
     "homepage_discount_banner",
