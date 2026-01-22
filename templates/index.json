@@ -105,7 +105,7 @@
       "settings": {
         "wave_height": 120,
         "wave_height_mobile": 80,
-        "wave_animation": true,
+        "wave_animation": false,
         "wave_rotate": true,
         "wave_color": "#ffffff",
         "background_color": "#f3f3f3",
@@ -173,6 +173,62 @@
         "text_size_block": "large",
         "scrolling_speed": 20,
         "padding_top": 54,
+        "padding_bottom": 70
+      }
+    },
+    "multirow_LEXijB": {
+      "type": "multirow",
+      "blocks": {
+        "row_VjdKA4": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_A3GF4B": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_a7xNRQ": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_VjdKA4",
+        "row_A3GF4B",
+        "row_a7xNRQ"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 70,
         "padding_bottom": 70
       }
     },
@@ -1324,6 +1380,7 @@
     "rich_text_DfnJHV",
     "ss_wave_2_WUU6xq",
     "bff1f354-16f7-4be2-a816-44e694d864e4",
+    "multirow_LEXijB",
     "a845fd8c-a661-412b-b2da-7787cec2a078",
     "ss_steps_8_WVVfXQ",
     "ss_comparison_table_17_xUFW3Q",
