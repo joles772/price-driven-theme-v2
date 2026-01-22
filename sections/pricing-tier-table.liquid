@@ -1,0 +1,787 @@
+{{ 'section-pricing-tier-table.css' | asset_url | stylesheet_tag }}
+
+{{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
+{{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'jquery-3.7.1.min.js' | asset_url }}" defer></script>
+<script src="{{ 'owl.carousel.min.js' | asset_url }}" defer></script>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .pricing-tier-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .pricing-tier-section .title-wrapper-with-link {
+    text-align: center !important;
+  }
+
+  .pricing-tier-section .subtitle-wrapper {
+    text-align: center !important;
+  }
+
+  .pricing-tier-table {
+    margin-top: 3rem;
+  }
+
+  .pricing-tier {
+    background: white;
+    border-radius: 0;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(var(--color-foreground), 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid rgba(var(--color-foreground), 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing-tier:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(var(--color-foreground), 0.15);
+  }
+
+  .pricing-tier.featured {
+    border-color: rgb(var(--color-button));
+    transform: scale(1.05);
+  }
+
+  .pricing-tier.featured:hover {
+    transform: scale(1.05) translateY(-8px);
+  }
+
+  .pricing-tier.featured::before {
+    content: "{{ section.settings.popular_badge_text }}";
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(var(--color-button));
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .pricing-tier__name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: rgb(var(--color-foreground));
+  }
+
+  .pricing-tier__price {
+    margin-bottom: 2rem;
+  }
+
+  .pricing-tier__price-amount {
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(var(--color-button));
+    line-height: 1;
+  }
+
+  .pricing-tier__price-currency {
+    font-size: 1.5rem;
+    vertical-align: top;
+  }
+
+  .pricing-tier__price-period {
+    font-size: 1rem;
+    color: rgba(var(--color-foreground), 0.7);
+    margin-top: 0.5rem;
+    display: block;
+  }
+
+  .pricing-tier__description {
+    color: rgba(var(--color-foreground), 0.7);
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+
+  .pricing-tier__features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    text-align: left;
+    flex-grow: 1;
+  }
+
+  .pricing-tier__feature {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(var(--color-foreground), 0.1);
+    display: flex;
+    align-items: center;
+    color: rgb(var(--color-foreground));
+  }
+
+  .pricing-tier__feature:last-child {
+    border-bottom: none;
+  }
+
+  .pricing-tier__feature::before {
+    {% if section.settings.show_feature_icons %}
+      content: "✓";
+      color: #22c55e;
+      font-weight: bold;
+      margin-right: 0.75rem;
+      font-size: 1.1rem;
+    {% else %}
+      display: none;
+    {% endif %}
+  }
+
+  .pricing-tier__feature.unavailable {
+    color: rgb(var(--color-foreground));
+  }
+
+  .pricing-tier__feature.unavailable::before {
+    {% if section.settings.show_feature_icons %}
+      content: "✗";
+      color: #ef4444;
+    {% else %}
+      display: none;
+    {% endif %}
+  }
+
+  .pricing-tier__button {
+    width: 100%;
+    background: rgb(var(--color-background));
+    color: rgb(var(--color-foreground));
+    border: 2px solid rgba(var(--color-foreground), 0.2);
+    padding: 1rem 2rem;
+    border-radius: 0;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .pricing-tier__button:hover {
+    background: rgba(var(--color-foreground), 0.05);
+    border-color: rgba(var(--color-foreground), 0.3);
+    color: rgb(var(--color-foreground));
+    text-decoration: none;
+  }
+
+  .pricing-tier.featured .pricing-tier__button {
+    background: rgb(var(--color-button));
+    color: white;
+    border-color: rgb(var(--color-button));
+  }
+
+  .pricing-tier.featured .pricing-tier__button:hover {
+    background: rgba(var(--color-button), 0.8);
+    border-color: rgba(var(--color-button), 0.8);
+    color: white;
+  }
+
+  @media screen and (max-width: 749px) {
+    .pricing-tier-table {
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      margin-top: 2rem;
+    }
+
+    .pricing-tier-table .owl-stage-outer {
+      overflow: hidden;
+      width: 100%;
+      padding-top: 1rem;
+      padding-bottom: 3rem;
+    }
+
+    .pricing-tier-table .owl-stage {
+      width: 100%;
+    }
+
+    .pricing-tier {
+      flex: none;
+      width: calc(100% - 20px);
+      min-width: calc(100% - 20px);
+      padding: 1.5rem 1rem;
+      margin: 0 10px;
+      box-sizing: border-box;
+    }
+
+    .pricing-tier.featured::before {
+      top: -8px;
+    }
+
+    .pricing-tier.featured {
+      transform: none;
+    }
+
+    .pricing-tier.featured:hover {
+      transform: translateY(-4px);
+    }
+
+    .pricing-tier__price-amount {
+      font-size: 2.5rem;
+    }
+
+    /* Owl Carousel Custom Styles */
+    .pricing-tier-section .owl-nav {
+      display: none !important;
+    }
+
+    .pricing-tier-section .owl-dots {
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .pricing-tier-section .owl-dots .owl-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: rgba(var(--color-foreground), 0.2);
+      border: none;
+      margin: 0 6px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .pricing-tier-section .owl-dots .owl-dot.active,
+    .pricing-tier-section .owl-dots .owl-dot:hover {
+      background: rgb(var(--color-foreground));
+      transform: scale(1.2);
+    }
+
+    .pricing-tier-section .owl-dots .owl-dot span {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 750px) {
+    .pricing-tier-section .owl-dots {
+      display: none;
+    }
+  }
+{%- endstyle -%}
+
+<div class="pricing-tier-section color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    {%- unless section.settings.title == blank -%}
+      <div
+        class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin"
+        style="text-align: center;"
+      >
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}" style="width: 100%;">
+          {{ section.settings.title }}
+        </h2>
+      </div>
+    {%- endunless -%}
+
+    {%- unless section.settings.subtitle == blank -%}
+      <div class="subtitle-wrapper" style="text-align: center;">
+        <p class="subtitle">{{ section.settings.subtitle }}</p>
+      </div>
+    {%- endunless -%}
+
+    <div class="pricing-tier-table owl-carousel owl-theme" id="pricing-carousel">
+      {%- comment -%} Basic Tier {%- endcomment -%}
+      <div class="pricing-tier{% if section.settings.featured_tier == 'basic' %} featured{% endif %}" data-tier="0">
+        <h3 class="pricing-tier__name">{{ section.settings.basic_name }}</h3>
+
+        {%- unless section.settings.basic_price == blank -%}
+          <div class="pricing-tier__price">
+            <span class="pricing-tier__price-currency">{{ section.settings.currency_symbol }}</span>
+            <span class="pricing-tier__price-amount">{{ section.settings.basic_price }}</span>
+            <span class="pricing-tier__price-period">{{ section.settings.price_period }}</span>
+          </div>
+        {%- endunless -%}
+
+        {%- unless section.settings.basic_description == blank -%}
+          <p class="pricing-tier__description">{{ section.settings.basic_description }}</p>
+        {%- endunless -%}
+
+        <ul class="pricing-tier__features">
+          {%- assign basic_features = section.settings.basic_features
+            | newline_to_br
+            | strip_newlines
+            | split: '<br />'
+          -%}
+          {%- assign basic_disabled_features = section.settings.basic_disabled_features
+            | newline_to_br
+            | strip_newlines
+            | split: '<br />'
+          -%}
+          {%- for feature in basic_features -%}
+            {%- assign feature_clean = feature | strip -%}
+            {%- unless feature_clean == blank -%}
+              <li class="pricing-tier__feature">{{ feature_clean }}</li>
+            {%- endunless -%}
+          {%- endfor -%}
+          {%- for feature in basic_disabled_features -%}
+            {%- assign feature_clean = feature | strip -%}
+            {%- unless feature_clean == blank or feature_clean == 'None' -%}
+              <li class="pricing-tier__feature unavailable">{{ feature_clean }}</li>
+            {%- endunless -%}
+          {%- endfor -%}
+        </ul>
+
+        {%- unless section.settings.basic_button_text == blank -%}
+          <a href="{{ section.settings.basic_button_link }}" class="pricing-tier__button">
+            {{ section.settings.basic_button_text }}
+          </a>
+        {%- endunless -%}
+      </div>
+
+      {%- comment -%} Standard Tier {%- endcomment -%}
+      <div class="pricing-tier{% if section.settings.featured_tier == 'standard' %} featured{% endif %}" data-tier="1">
+        <h3 class="pricing-tier__name">{{ section.settings.standard_name }}</h3>
+
+        {%- unless section.settings.standard_price == blank -%}
+          <div class="pricing-tier__price">
+            <span class="pricing-tier__price-currency">{{ section.settings.currency_symbol }}</span>
+            <span class="pricing-tier__price-amount">{{ section.settings.standard_price }}</span>
+            <span class="pricing-tier__price-period">{{ section.settings.price_period }}</span>
+          </div>
+        {%- endunless -%}
+
+        {%- unless section.settings.standard_description == blank -%}
+          <p class="pricing-tier__description">{{ section.settings.standard_description }}</p>
+        {%- endunless -%}
+
+        <ul class="pricing-tier__features">
+          {%- assign standard_features = section.settings.standard_features
+            | newline_to_br
+            | strip_newlines
+            | split: '<br />'
+          -%}
+          {%- assign standard_disabled_features = section.settings.standard_disabled_features
+            | newline_to_br
+            | strip_newlines
+            | split: '<br />'
+          -%}
+          {%- for feature in standard_features -%}
+            {%- assign feature_clean = feature | strip -%}
+            {%- unless feature_clean == blank -%}
+              <li class="pricing-tier__feature">{{ feature_clean }}</li>
+            {%- endunless -%}
+          {%- endfor -%}
+          {%- for feature in standard_disabled_features -%}
+            {%- assign feature_clean = feature | strip -%}
+            {%- unless feature_clean == blank or feature_clean == 'None' -%}
+              <li class="pricing-tier__feature unavailable">{{ feature_clean }}</li>
+            {%- endunless -%}
+          {%- endfor -%}
+        </ul>
+
+        {%- unless section.settings.standard_button_text == blank -%}
+          <a href="{{ section.settings.standard_button_link }}" class="pricing-tier__button">
+            {{ section.settings.standard_button_text }}
+          </a>
+        {%- endunless -%}
+      </div>
+
+      {%- comment -%} Premium Tier {%- endcomment -%}
+      <div class="pricing-tier{% if section.settings.featured_tier == 'premium' %} featured{% endif %}" data-tier="2">
+        <h3 class="pricing-tier__name">{{ section.settings.premium_name }}</h3>
+
+        {%- unless section.settings.premium_price == blank -%}
+          <div class="pricing-tier__price">
+            <span class="pricing-tier__price-currency">{{ section.settings.currency_symbol }}</span>
+            <span class="pricing-tier__price-amount">{{ section.settings.premium_price }}</span>
+            <span class="pricing-tier__price-period">{{ section.settings.price_period }}</span>
+          </div>
+        {%- endunless -%}
+
+        {%- unless section.settings.premium_description == blank -%}
+          <p class="pricing-tier__description">{{ section.settings.premium_description }}</p>
+        {%- endunless -%}
+
+        <ul class="pricing-tier__features">
+          {%- assign premium_features = section.settings.premium_features
+            | newline_to_br
+            | strip_newlines
+            | split: '<br />'
+          -%}
+          {%- assign premium_disabled_features = section.settings.premium_disabled_features
+            | newline_to_br
+            | strip_newlines
+            | split: '<br />'
+          -%}
+          {%- for feature in premium_features -%}
+            {%- assign feature_clean = feature | strip -%}
+            {%- unless feature_clean == blank -%}
+              <li class="pricing-tier__feature">{{ feature_clean }}</li>
+            {%- endunless -%}
+          {%- endfor -%}
+          {%- for feature in premium_disabled_features -%}
+            {%- assign feature_clean = feature | strip -%}
+            {%- unless feature_clean == blank or feature_clean == 'None' -%}
+              <li class="pricing-tier__feature unavailable">{{ feature_clean }}</li>
+            {%- endunless -%}
+          {%- endfor -%}
+        </ul>
+
+        {%- unless section.settings.premium_button_text == blank -%}
+          <a href="{{ section.settings.premium_button_link }}" class="pricing-tier__button">
+            {{ section.settings.premium_button_text }}
+          </a>
+        {%- endunless -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Owl Carousel JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Initialize Owl Carousel for mobile devices only
+    function initializeCarousel() {
+      if (window.innerWidth <= 749) {
+        // Initialize Owl Carousel if not already initialized
+        if (!$('#pricing-carousel').hasClass('owl-loaded')) {
+          $('#pricing-carousel').owlCarousel({
+            items: 1,
+            margin: 0,
+            nav: false,
+            dots: true,
+            loop: false,
+            autoplay: false,
+            stagePadding: 10,
+            responsive: {
+              0: {
+                items: 1,
+                margin: 0,
+                stagePadding: 10,
+              },
+              576: {
+                items: 1,
+                margin: 0,
+                stagePadding: 15,
+              },
+            },
+            onInitialized: function () {
+              // Add custom styling after initialization
+              $('.owl-dots').addClass('text-center');
+            },
+          });
+        }
+      } else {
+        // Destroy carousel for desktop view
+        if ($('#pricing-carousel').hasClass('owl-loaded')) {
+          $('#pricing-carousel').trigger('destroy.owl.carousel');
+          $('#pricing-carousel').removeClass('owl-loaded');
+        }
+      }
+    }
+
+    // Initialize on load
+    initializeCarousel();
+
+    // Re-initialize on window resize
+    window.addEventListener('resize', function () {
+      initializeCarousel();
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Pricing Tier Table",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Settings"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Choose Your Plan",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "default": "Select the perfect plan for your needs",
+      "label": "Subtitle"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading size"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "General Pricing Settings"
+    },
+    {
+      "type": "text",
+      "id": "currency_symbol",
+      "default": "$",
+      "label": "Currency Symbol"
+    },
+    {
+      "type": "text",
+      "id": "price_period",
+      "default": "per month",
+      "label": "Price Period"
+    },
+    {
+      "type": "select",
+      "id": "featured_tier",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "basic",
+          "label": "Basic"
+        },
+        {
+          "value": "standard",
+          "label": "Standard"
+        },
+        {
+          "value": "premium",
+          "label": "Premium"
+        }
+      ],
+      "default": "premium",
+      "label": "Featured Tier"
+    },
+    {
+      "type": "text",
+      "id": "popular_badge_text",
+      "default": "Most Popular",
+      "label": "Popular Badge Text"
+    },
+    {
+      "type": "header",
+      "content": "Feature Display Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_feature_icons",
+      "default": true,
+      "label": "Show checkmark/X icons for features",
+      "info": "When enabled, features will show ✓ checkmarks. When disabled, features will display as plain text without icons."
+    },
+    {
+      "type": "header",
+      "content": "Basic Tier"
+    },
+    {
+      "type": "text",
+      "id": "basic_name",
+      "default": "Basic",
+      "label": "Tier Name"
+    },
+    {
+      "type": "text",
+      "id": "basic_price",
+      "default": "9",
+      "label": "Price (numbers only)"
+    },
+    {
+      "type": "textarea",
+      "id": "basic_description",
+      "default": "Perfect for individuals getting started",
+      "label": "Description"
+    },
+    {
+      "type": "textarea",
+      "id": "basic_features",
+      "default": "Up to 5 projects\nBasic support\n10GB storage\nEmail integration",
+      "label": "Features (one per line)",
+      "info": "Enter each feature on a new line"
+    },
+    {
+      "type": "textarea",
+      "id": "basic_disabled_features",
+      "default": "Advanced analytics\nTeam collaboration\nAPI access",
+      "label": "Disabled Features (one per line)",
+      "info": "Features that will show with X marks. Enter each feature on a new line"
+    },
+    {
+      "type": "text",
+      "id": "basic_button_text",
+      "default": "Get Started",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "basic_button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "header",
+      "content": "Standard Tier"
+    },
+    {
+      "type": "text",
+      "id": "standard_name",
+      "default": "Standard",
+      "label": "Tier Name"
+    },
+    {
+      "type": "text",
+      "id": "standard_price",
+      "default": "29",
+      "label": "Price (numbers only)"
+    },
+    {
+      "type": "textarea",
+      "id": "standard_description",
+      "default": "Best for growing businesses and teams",
+      "label": "Description"
+    },
+    {
+      "type": "textarea",
+      "id": "standard_features",
+      "default": "Up to 25 projects\nPriority support\n100GB storage\nEmail & chat integration\nAdvanced analytics\nTeam collaboration",
+      "label": "Features (one per line)",
+      "info": "Enter each feature on a new line"
+    },
+    {
+      "type": "textarea",
+      "id": "standard_disabled_features",
+      "default": "API access\nCustom branding",
+      "label": "Disabled Features (one per line)",
+      "info": "Features that will show with X marks. Enter each feature on a new line"
+    },
+    {
+      "type": "text",
+      "id": "standard_button_text",
+      "default": "Choose Standard",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "standard_button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "header",
+      "content": "Premium Tier"
+    },
+    {
+      "type": "text",
+      "id": "premium_name",
+      "default": "Premium",
+      "label": "Tier Name"
+    },
+    {
+      "type": "text",
+      "id": "premium_price",
+      "default": "99",
+      "label": "Price (numbers only)"
+    },
+    {
+      "type": "textarea",
+      "id": "premium_description",
+      "default": "For enterprises requiring maximum power",
+      "label": "Description"
+    },
+    {
+      "type": "textarea",
+      "id": "premium_features",
+      "default": "Unlimited projects\n24/7 dedicated support\nUnlimited storage\nFull integration suite\nAdvanced analytics & reporting\nDedicated account manager\nCustom branding\nAPI access",
+      "label": "Features (one per line)",
+      "info": "Enter each feature on a new line"
+    },
+    {
+      "type": "textarea",
+      "id": "premium_disabled_features",
+      "default": "None",
+      "label": "Disabled Features (one per line)",
+      "info": "Features that will show with X marks. Enter each feature on a new line. Use 'None' if all features are included."
+    },
+    {
+      "type": "text",
+      "id": "premium_button_text",
+      "default": "Go Premium",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "premium_button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pricing Tier Table"
+    }
+  ]
+}
+{% endschema %}
