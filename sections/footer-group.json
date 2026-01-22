@@ -1,1 +1,203 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"multicolumn_k7EmUx":{"type":"multicolumn","blocks":{"column_RNhXnj":{"type":"column","settings":{"item_color_scheme":"","image":"shopify:\/\/shop_images\/Group_1000003523.svg","image_cover":false,"image_overlay_opacity":0,"reduce_spaces":false,"content_full_width":false,"caption":"","title":"Comprehensive Invoice Pricing","heading_size_block":"h6","subheading":"","text":"<p>Access detailed invoice pricing for a wide range of vehicles to make informed decisions.<\/p>","text_size_block":"p-small","button_style":"solid","link_label":"","link":""}},"column_N8dYgm":{"type":"column","settings":{"item_color_scheme":"","image":"shopify:\/\/shop_images\/Group_1000003521.svg","image_cover":false,"image_overlay_opacity":0,"reduce_spaces":false,"content_full_width":false,"caption":"","title":"Pre-Negotiated Guaranteed Prices","heading_size_block":"h6","subheading":"","text":"<p>Eliminate haggling and get a fair deal with pre-negotiated prices from selected dealerships.<\/p>","text_size_block":"p-small","button_style":"solid","link_label":"","link":""}},"column_KM4cf7":{"type":"column","settings":{"item_color_scheme":"","image":"shopify:\/\/shop_images\/truck-fast.svg","image_cover":false,"image_overlay_opacity":0,"reduce_spaces":false,"content_full_width":false,"caption":"","title":"Streamlined Car Buying Process","heading_size_block":"h6","subheading":"","text":"<p>Save time and reduce stress with centralized pricing information and negotiation services.<\/p>","text_size_block":"p-small","button_style":"solid","link_label":"","link":""}},"column_U8KXzM":{"type":"column","settings":{"item_color_scheme":"scheme-1","image":"shopify:\/\/shop_images\/Group_1000003527.svg","image_cover":false,"image_overlay_opacity":0,"reduce_spaces":false,"content_full_width":false,"caption":"","title":"Current Market Value","heading_size_block":"h6","subheading":"","text":"<p>Understand the current value of new cars compared to MSRP and invoice pricing.<\/p>","text_size_block":"p-small","button_style":"solid","link_label":"","link":""}}},"block_order":["column_RNhXnj","column_N8dYgm","column_KM4cf7","column_U8KXzM"],"settings":{"title":"","heading_alignment":"center","heading_size":"h2","description":"","text_size_block":"medium","image_width":"fourth","image_ratio":"adapt","columns_desktop":4,"grid_type":"grid","column_divider":true,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":80,"padding_bottom":80}},"footer":{"type":"footer","blocks":{"background_image_jDFcmM":{"type":"background_image","settings":{"image":"shopify:\/\/shop_images\/Untitled_design_6.svg","image_width":1240,"image_repeat":"no-repeat"}},"footer-0":{"type":"link_list","settings":{"heading":"Tools","menu":"tools"}},"89f2b72b-8551-4b3c-a430-1719424d7f61":{"type":"link_list","settings":{"heading":"Locations","menu":"footer-1"}},"footer-1":{"type":"link_list","settings":{"heading":"","menu":"footer-cities-2"}},"7760174b-bd0c-4b3e-b524-15a41eb9dabc":{"type":"link_list","settings":{"heading":"Legal support","menu":"policies"}}},"block_order":["background_image_jDFcmM","footer-0","89f2b72b-8551-4b3c-a430-1719424d7f61","footer-1","7760174b-bd0c-4b3e-b524-15a41eb9dabc"],"settings":{"color_scheme":"scheme-6","heading_size":"h6","logo_width":190,"show_social":true,"social_icon_style":"default","social_label":"Follow us","newsletter_enable":true,"newsletter_enable_top":true,"newsletter_title":"","newsletter_description":"<p>Join our newsletter for new offers.<\/p>","enable_follow_on_shop":false,"enable_country_selector":true,"enable_language_selector":true,"footer_subtext":"","payment_enable":true,"policy_color_scheme":"scheme-2","show_policy":false,"policy_padding_top":9,"policy_padding_bottom":20,"margin_top":0,"padding_top":80,"padding_bottom":60}}},"order":["multicolumn_k7EmUx","footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "multicolumn_k7EmUx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RNhXnj": {
+          "type": "column",
+          "settings": {
+            "item_color_scheme": "",
+            "image": "shopify://shop_images/Group_1000003523.svg",
+            "image_cover": false,
+            "image_overlay_opacity": 0,
+            "reduce_spaces": false,
+            "content_full_width": false,
+            "caption": "",
+            "title": "Comprehensive Invoice Pricing",
+            "heading_size_block": "h6",
+            "subheading": "",
+            "text": "<p>Access detailed invoice pricing for a wide range of vehicles to make informed decisions.</p>",
+            "text_size_block": "p-small",
+            "button_style": "solid",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_N8dYgm": {
+          "type": "column",
+          "settings": {
+            "item_color_scheme": "",
+            "image": "shopify://shop_images/Group_1000003521.svg",
+            "image_cover": false,
+            "image_overlay_opacity": 0,
+            "reduce_spaces": false,
+            "content_full_width": false,
+            "caption": "",
+            "title": "Pre-Negotiated Guaranteed Prices",
+            "heading_size_block": "h6",
+            "subheading": "",
+            "text": "<p>Eliminate haggling and get a fair deal with pre-negotiated prices from selected dealerships.</p>",
+            "text_size_block": "p-small",
+            "button_style": "solid",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KM4cf7": {
+          "type": "column",
+          "settings": {
+            "item_color_scheme": "",
+            "image": "shopify://shop_images/truck-fast.svg",
+            "image_cover": false,
+            "image_overlay_opacity": 0,
+            "reduce_spaces": false,
+            "content_full_width": false,
+            "caption": "",
+            "title": "Streamlined Car Buying Process",
+            "heading_size_block": "h6",
+            "subheading": "",
+            "text": "<p>Save time and reduce stress with centralized pricing information and negotiation services.</p>",
+            "text_size_block": "p-small",
+            "button_style": "solid",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_U8KXzM": {
+          "type": "column",
+          "settings": {
+            "item_color_scheme": "scheme-1",
+            "image": "shopify://shop_images/Group_1000003527.svg",
+            "image_cover": false,
+            "image_overlay_opacity": 0,
+            "reduce_spaces": false,
+            "content_full_width": false,
+            "caption": "",
+            "title": "Current Market Value",
+            "heading_size_block": "h6",
+            "subheading": "",
+            "text": "<p>Understand the current value of new cars compared to MSRP and invoice pricing.</p>",
+            "text_size_block": "p-small",
+            "button_style": "solid",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RNhXnj",
+        "column_N8dYgm",
+        "column_KM4cf7",
+        "column_U8KXzM"
+      ],
+      "settings": {
+        "title": "",
+        "heading_alignment": "center",
+        "heading_size": "h2",
+        "description": "",
+        "text_size_block": "medium",
+        "image_width": "fourth",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "grid_type": "grid",
+        "column_divider": true,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "background_image_jDFcmM": {
+          "type": "background_image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_6.svg",
+            "image_width": 1240,
+            "image_repeat": "no-repeat"
+          }
+        },
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Tools",
+            "menu": "tools"
+          }
+        },
+        "89f2b72b-8551-4b3c-a430-1719424d7f61": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Locations",
+            "menu": "footer-1"
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": ""
+          }
+        },
+        "7760174b-bd0c-4b3e-b524-15a41eb9dabc": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Legal support",
+            "menu": "policies"
+          }
+        }
+      },
+      "block_order": [
+        "background_image_jDFcmM",
+        "footer-0",
+        "89f2b72b-8551-4b3c-a430-1719424d7f61",
+        "footer-1",
+        "7760174b-bd0c-4b3e-b524-15a41eb9dabc"
+      ],
+      "settings": {
+        "color_scheme": "scheme-6",
+        "heading_size": "h6",
+        "logo_width": 190,
+        "show_social": true,
+        "social_icon_style": "default",
+        "social_label": "Follow us",
+        "newsletter_enable": true,
+        "newsletter_enable_top": true,
+        "newsletter_title": "",
+        "newsletter_description": "<p>Join our newsletter for new offers.</p>",
+        "enable_follow_on_shop": false,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "footer_subtext": "",
+        "payment_enable": true,
+        "policy_color_scheme": "scheme-2",
+        "show_policy": false,
+        "policy_padding_top": 9,
+        "policy_padding_bottom": 20,
+        "margin_top": 0,
+        "padding_top": 80,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "multicolumn_k7EmUx",
+    "footer"
+  ]
+}
