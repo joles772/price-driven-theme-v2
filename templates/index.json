@@ -122,61 +122,6 @@
         "border_thickness": 0
       }
     },
-    "bff1f354-16f7-4be2-a816-44e694d864e4": {
-      "type": "testimonials",
-      "blocks": {
-        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-1": {
-          "type": "testimonial",
-          "settings": {
-            "color_scheme": "",
-            "rating_star": 5,
-            "image": "shopify://shop_images/smiling-stylish-couple-in-sunglasses-standing-near-2024-11-17-10-30-38-utc_1.jpg",
-            "full_name": "<strong>Lucas H, London, ON</strong>",
-            "job_title": "Kia Seltos | 2025",
-            "text": "Price Driven made buying my first new car so easy! The transparent pricing gave me confidence, and the pre-negotiated deal saved me hundreds."
-          }
-        },
-        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-2": {
-          "type": "testimonial",
-          "settings": {
-            "color_scheme": "",
-            "rating_star": 5,
-            "image": "shopify://shop_images/stylish-kuwaiti-man-2023-11-27-04-52-32-utc_1.jpg",
-            "full_name": "<strong>Michael S, Vancouver, BC</strong>",
-            "job_title": "Ford Escape | 2024",
-            "text": "Made purchasing a new SUV less stressful than my previous car. Knowing how much discount there is, helps with negotiating the price."
-          }
-        },
-        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-3": {
-          "type": "testimonial",
-          "settings": {
-            "color_scheme": "",
-            "rating_star": 5,
-            "image": "shopify://shop_images/african-american-woman-at-violet-dress-and-cap-2023-11-27-04-58-26-utc_1.jpg",
-            "full_name": "<strong>Olivia P, Winnipeg, MB</strong>",
-            "job_title": "Lexus RX | 2025",
-            "text": "I was able to save money on my Lexus RX through Price Driven. The platform provided all the necessary details to make an informed choice."
-          }
-        }
-      },
-      "block_order": [
-        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-1",
-        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-2",
-        "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "What Our Customers Say",
-        "heading_alignment": "center",
-        "heading_size": "h2",
-        "color_scheme": "",
-        "description": "",
-        "text_size_block": "large",
-        "scrolling_speed": 20,
-        "padding_top": 54,
-        "padding_bottom": 70
-      }
-    },
     "testimonials_v2_bnk8cD": {
       "type": "testimonials-v2",
       "blocks": {
@@ -578,6 +523,44 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
+      }
+    },
+    "pricing_tier_table_48mHE3": {
+      "type": "pricing-tier-table",
+      "name": "Pricing Tier Table",
+      "settings": {
+        "title": "Choose Your Plan",
+        "subtitle": "Select the perfect plan for your needs",
+        "heading_size": "h1",
+        "color_scheme": "scheme-1",
+        "currency_symbol": "$",
+        "price_period": "per month",
+        "featured_tier": "premium",
+        "popular_badge_text": "Most Popular",
+        "show_feature_icons": true,
+        "basic_name": "Basic",
+        "basic_price": "9",
+        "basic_description": "Perfect for individuals getting started",
+        "basic_features": "Up to 5 projects\nBasic support\n10GB storage\nEmail integration",
+        "basic_disabled_features": "Advanced analytics\nTeam collaboration\nAPI access",
+        "basic_button_text": "Get Started",
+        "basic_button_link": "",
+        "standard_name": "Standard",
+        "standard_price": "29",
+        "standard_description": "Best for growing businesses and teams",
+        "standard_features": "Up to 25 projects\nPriority support\n100GB storage\nEmail & chat integration\nAdvanced analytics\nTeam collaboration",
+        "standard_disabled_features": "API access\nCustom branding",
+        "standard_button_text": "Choose Standard",
+        "standard_button_link": "",
+        "premium_name": "Premium",
+        "premium_price": "99",
+        "premium_description": "For enterprises requiring maximum power",
+        "premium_features": "Unlimited projects\n24/7 dedicated support\nUnlimited storage\nFull integration suite\nAdvanced analytics & reporting\nDedicated account manager\nCustom branding\nAPI access",
+        "premium_disabled_features": "None",
+        "premium_button_text": "Go Premium",
+        "premium_button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "ss_comparison_table_17_xUFW3Q": {
@@ -1491,42 +1474,39 @@
         "padding_bottom": 140
       }
     },
-    "pricing_tier_table_48mHE3": {
-      "type": "pricing-tier-table",
-      "name": "Pricing Tier Table",
+    "email_signup_banner_EyCLDT": {
+      "type": "email-signup-banner",
+      "blocks": {
+        "heading_EM9may": {
+          "type": "heading",
+          "settings": {
+            "heading": "Opening soon",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_CNMxct": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know when we launch.</p>"
+          }
+        },
+        "email_form_MQikUE": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_EM9may",
+        "paragraph_CNMxct",
+        "email_form_MQikUE"
+      ],
+      "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
-        "title": "Choose Your Plan",
-        "subtitle": "Select the perfect plan for your needs",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
-        "currency_symbol": "$",
-        "price_period": "per month",
-        "featured_tier": "premium",
-        "popular_badge_text": "Most Popular",
-        "show_feature_icons": true,
-        "basic_name": "Basic",
-        "basic_price": "9",
-        "basic_description": "Perfect for individuals getting started",
-        "basic_features": "Up to 5 projects\nBasic support\n10GB storage\nEmail integration",
-        "basic_disabled_features": "Advanced analytics\nTeam collaboration\nAPI access",
-        "basic_button_text": "Get Started",
-        "basic_button_link": "",
-        "standard_name": "Standard",
-        "standard_price": "29",
-        "standard_description": "Best for growing businesses and teams",
-        "standard_features": "Up to 25 projects\nPriority support\n100GB storage\nEmail & chat integration\nAdvanced analytics\nTeam collaboration",
-        "standard_disabled_features": "API access\nCustom branding",
-        "standard_button_text": "Choose Standard",
-        "standard_button_link": "",
-        "premium_name": "Premium",
-        "premium_price": "99",
-        "premium_description": "For enterprises requiring maximum power",
-        "premium_features": "Unlimited projects\n24/7 dedicated support\nUnlimited storage\nFull integration suite\nAdvanced analytics & reporting\nDedicated account manager\nCustom branding\nAPI access",
-        "premium_disabled_features": "None",
-        "premium_button_text": "Go Premium",
-        "premium_button_link": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image_overlay_opacity": 39,
+        "show_background_image": true,
+        "image_position": "left",
+        "desktop_content_alignment": "center",
+        "color_scheme": ""
       }
     }
   },
@@ -1535,7 +1515,6 @@
     "video_Ex8RYQ",
     "rich_text_DfnJHV",
     "ss_wave_2_WUU6xq",
-    "bff1f354-16f7-4be2-a816-44e694d864e4",
     "testimonials_v2_bnk8cD",
     "ss_wave_2_PCQcnq",
     "rich_text_Et4pyU",
@@ -1555,6 +1534,7 @@
     "ss_feature_22_qYzj98",
     "custom_liquid_tzBfN7",
     "homepage_discount_banner",
-    "f6e4d7b0-8b93-4391-bc83-1d3b618d2ed3"
+    "f6e4d7b0-8b93-4391-bc83-1d3b618d2ed3",
+    "email_signup_banner_EyCLDT"
   ]
 }
