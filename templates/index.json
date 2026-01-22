@@ -186,35 +186,25 @@
             "caption": "Step 1",
             "heading": "Choose Your Car",
             "text": "<p>Browse our comprehensive selection of cars and find your perfect vehicle. Filter by make, model, year, and more.</p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_A3GF4B": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/home-download-your-report.jpg",
             "caption": "Step 2",
             "heading": "Download a Free Discount Report or Go Premium",
             "text": "<p>Download a free discount report to see the dealer price of your car, including promotions and incentives. Use your report to negotiate with confidence.</p><p>Or</p><p>Go with our Premium Vehicle Negotiating Service. Our experts negotiate and prepare your car deal. All you have to do is go in and sign at the dealership.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_a7xNRQ": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
         "row_VjdKA4",
-        "row_A3GF4B",
-        "row_a7xNRQ"
+        "row_A3GF4B"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
