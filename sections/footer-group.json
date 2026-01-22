@@ -126,14 +126,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "background_image_jDFcmM": {
-          "type": "background_image",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_6.svg",
-            "image_width": 1240,
-            "image_repeat": "no-repeat"
-          }
-        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -164,14 +156,13 @@
         }
       },
       "block_order": [
-        "background_image_jDFcmM",
         "footer-0",
         "89f2b72b-8551-4b3c-a430-1719424d7f61",
         "footer-1",
         "7760174b-bd0c-4b3e-b524-15a41eb9dabc"
       ],
       "settings": {
-        "color_scheme": "scheme-6",
+        "color_scheme": "scheme-4",
         "heading_size": "h6",
         "logo_width": 190,
         "show_social": true,
@@ -186,7 +177,7 @@
         "enable_language_selector": true,
         "footer_subtext": "",
         "payment_enable": true,
-        "policy_color_scheme": "scheme-2",
+        "policy_color_scheme": "scheme-4",
         "show_policy": false,
         "policy_padding_top": 9,
         "policy_padding_bottom": 20,
