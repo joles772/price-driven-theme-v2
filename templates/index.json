@@ -95,7 +95,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "padding_top": 70,
         "padding_bottom": 70
       }
@@ -164,6 +164,7 @@
         "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-2",
         "template--16766664409325__bff1f354-16f7-4be2-a816-44e694d864e4-testimonial-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "What Our Customers Say",
         "heading_alignment": "center",
@@ -174,6 +175,83 @@
         "scrolling_speed": 20,
         "padding_top": 54,
         "padding_bottom": 70
+      }
+    },
+    "testimonials_v2_bnk8cD": {
+      "type": "testimonials-v2",
+      "blocks": {
+        "testimonial_6dzKyk": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Lucas H",
+            "customer_title": "Kia Seltos | 2025",
+            "customer_image": "shopify://shop_images/smiling-stylish-couple-in-sunglasses-standing-near-2024-11-17-10-30-38-utc_1.jpg",
+            "star_rating": 5,
+            "testimonial_text": "Price Driven made buying my first new car so easy! The transparent pricing gave me confidence, and the pre-negotiated deal saved me hundreds.",
+            "testimonial_date": ""
+          }
+        },
+        "testimonial_bMUKcB": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Michael S",
+            "customer_title": "Ford Escape | 2024",
+            "customer_image": "shopify://shop_images/stylish-kuwaiti-man-2023-11-27-04-52-32-utc_1.jpg",
+            "star_rating": 5,
+            "testimonial_text": "Made purchasing a new SUV less stressful than my previous car. Knowing how much discount there is, helps with negotiating the price.",
+            "testimonial_date": ""
+          }
+        },
+        "testimonial_BGCMc8": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Olivia P",
+            "customer_title": "Lexus RX | 2025",
+            "customer_image": "shopify://shop_images/african-american-woman-at-violet-dress-and-cap-2023-11-27-04-58-26-utc_1.jpg",
+            "star_rating": 4,
+            "testimonial_text": "I was able to save money on my Lexus RX through Price Driven. The platform provided all the necessary details to make an informed choice.",
+            "testimonial_date": "2024-02-20"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_6dzKyk",
+        "testimonial_bMUKcB",
+        "testimonial_BGCMc8"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "title": "What Our Customers Say",
+        "subtitle": "Read genuine reviews from our satisfied customers",
+        "heading_size": "h1",
+        "layout": "grid",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Et4pyU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WRnTF6": {
+          "type": "heading",
+          "settings": {
+            "heading": "How It Works",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WRnTF6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "padding_top": 70,
+        "padding_bottom": 0
       }
     },
     "multirow_LEXijB": {
@@ -1372,6 +1450,8 @@
     "rich_text_DfnJHV",
     "ss_wave_2_WUU6xq",
     "bff1f354-16f7-4be2-a816-44e694d864e4",
+    "testimonials_v2_bnk8cD",
+    "rich_text_Et4pyU",
     "multirow_LEXijB",
     "a845fd8c-a661-412b-b2da-7787cec2a078",
     "ss_steps_8_WVVfXQ",
