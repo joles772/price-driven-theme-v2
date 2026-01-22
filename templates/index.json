@@ -1149,6 +1149,7 @@
         "item_XwMaLy",
         "item_dqHMYK"
       ],
+      "disabled": true,
       "name": "SS - Feature #22",
       "settings": {
         "heading": "<p><strong>Smarter Car Buying:</strong></p>",
@@ -1346,7 +1347,7 @@
     "f6e4d7b0-8b93-4391-bc83-1d3b618d2ed3": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Podcast Posts",
+        "heading": "Blog",
         "heading_size": "h2",
         "blog": "podcast-articles",
         "read_more_title": "Read More",
