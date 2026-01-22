@@ -176,6 +176,60 @@
         "padding_bottom": 70
       }
     },
+    "testimonials_v2_bnk8cD": {
+      "type": "testimonials-v2",
+      "blocks": {
+        "testimonial_6dzKyk": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Lucas H",
+            "customer_title": "Kia Seltos | 2025",
+            "customer_image": "shopify://shop_images/smiling-stylish-couple-in-sunglasses-standing-near-2024-11-17-10-30-38-utc_1.jpg",
+            "star_rating": 5,
+            "testimonial_text": "Price Driven made buying my first new car so easy! The transparent pricing gave me confidence, and the pre-negotiated deal saved me hundreds.",
+            "testimonial_date": ""
+          }
+        },
+        "testimonial_bMUKcB": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Michael S",
+            "customer_title": "Ford Escape | 2024",
+            "customer_image": "shopify://shop_images/stylish-kuwaiti-man-2023-11-27-04-52-32-utc_1.jpg",
+            "star_rating": 5,
+            "testimonial_text": "Made purchasing a new SUV less stressful than my previous car. Knowing how much discount there is, helps with negotiating the price.",
+            "testimonial_date": ""
+          }
+        },
+        "testimonial_BGCMc8": {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Olivia P",
+            "customer_title": "Lexus RX | 2025",
+            "customer_image": "shopify://shop_images/african-american-woman-at-violet-dress-and-cap-2023-11-27-04-58-26-utc_1.jpg",
+            "star_rating": 4,
+            "testimonial_text": "I was able to save money on my Lexus RX through Price Driven. The platform provided all the necessary details to make an informed choice.",
+            "testimonial_date": "2024-02-20"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_6dzKyk",
+        "testimonial_bMUKcB",
+        "testimonial_BGCMc8"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "title": "What Our Customers Say",
+        "subtitle": "Read genuine reviews from our satisfied customers",
+        "heading_size": "h1",
+        "layout": "grid",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_LEXijB": {
       "type": "multirow",
       "blocks": {
@@ -1363,57 +1417,6 @@
         "swipe_on_mobile": false,
         "padding_top": 70,
         "padding_bottom": 140
-      }
-    },
-    "testimonials_v2_bnk8cD": {
-      "type": "testimonials-v2",
-      "blocks": {
-        "testimonial_6dzKyk": {
-          "type": "testimonial",
-          "settings": {
-            "customer_name": "Sarah Johnson",
-            "customer_title": "Verified Buyer",
-            "star_rating": 5,
-            "testimonial_text": "This product exceeded my expectations! The quality is outstanding and the customer service was fantastic. I would definitely recommend this to anyone looking for a reliable solution.",
-            "testimonial_date": "2024-01-15"
-          }
-        },
-        "testimonial_bMUKcB": {
-          "type": "testimonial",
-          "settings": {
-            "customer_name": "Mike Chen",
-            "customer_title": "Repeat Customer",
-            "star_rating": 5,
-            "testimonial_text": "I've been using this for months now and it's been perfect. Great value for money and exactly what I needed. The shipping was fast too!",
-            "testimonial_date": "2024-02-08"
-          }
-        },
-        "testimonial_BGCMc8": {
-          "type": "testimonial",
-          "settings": {
-            "customer_name": "Emily Rodriguez",
-            "customer_title": "First-time Buyer",
-            "star_rating": 4,
-            "testimonial_text": "Really happy with my purchase. The product works as described and arrived quickly. Would buy again!",
-            "testimonial_date": "2024-02-20"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_6dzKyk",
-        "testimonial_bMUKcB",
-        "testimonial_BGCMc8"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "title": "What Our Customers Say",
-        "subtitle": "Read genuine reviews from our satisfied customers",
-        "heading_size": "h1",
-        "layout": "grid",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
