@@ -1,0 +1,477 @@
+{{ 'section-testimonials.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+>
+<script src="{{ 'jquery-3.7.1.min.js' | asset_url }}" defer></script>
+<script src="{{ 'owl.carousel.min.js' | asset_url }}" defer></script>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="testimonials-section color-{{ section.settings.color_scheme }} gradient">
+  <div class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    {%- unless section.settings.title == blank -%}
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+          {{ section.settings.title }}
+        </h2>
+      </div>
+    {%- endunless -%}
+
+    {%- unless section.settings.subtitle == blank -%}
+      <div class="subtitle-wrapper">
+        <p class="subtitle">{{ section.settings.subtitle }}</p>
+      </div>
+    {%- endunless -%}
+
+    <div class="testimonials-carousel-container" data-layout="{{ section.settings.layout }}">
+      {%- if section.settings.layout == 'carousel' -%}
+        <div class="owl-carousel testimonials-carousel" data-columns="{{ section.settings.columns_desktop }}">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'testimonial' -%}
+                <div class="testimonial-card" {{ block.shopify_attributes }}>
+                  {%- if block.settings.star_rating > 0 -%}
+                    <div class="testimonial__rating">
+                      {%- for i in (1..5) -%}
+                        {%- if i <= block.settings.star_rating -%}
+                          <span class="star filled">★</span>
+                        {%- else -%}
+                          <span class="star empty">☆</span>
+                        {%- endif -%}
+                      {%- endfor -%}
+                    </div>
+                  {%- endif -%}
+
+                  {%- unless block.settings.testimonial_text == blank -%}
+                    <blockquote class="testimonial__quote">
+                      <p>{{ block.settings.testimonial_text }}</p>
+                    </blockquote>
+                  {%- endunless -%}
+
+                  <div class="testimonial__author">
+                    {%- if block.settings.customer_image != blank -%}
+                      <div class="testimonial__image">
+                        {{
+                          block.settings.customer_image
+                          | image_url: width: 120
+                          | image_tag: loading: 'lazy', alt: block.settings.customer_name, widths: '60, 120, 180'
+                        }}
+                      </div>
+                    {%- endif -%}
+
+                    <div class="testimonial__details">
+                      {%- unless block.settings.customer_name == blank -%}
+                        <cite class="testimonial__name">{{ block.settings.customer_name }}</cite>
+                      {%- endunless -%}
+
+                      {%- unless block.settings.customer_title == blank -%}
+                        <p class="testimonial__title">{{ block.settings.customer_title }}</p>
+                      {%- endunless -%}
+
+                      {%- unless block.settings.testimonial_date == blank -%}
+                        <time class="testimonial__date" datetime="{{ block.settings.testimonial_date }}">
+                          {{ block.settings.testimonial_date | date: '%B %d, %Y' }}
+                        </time>
+                      {%- endunless -%}
+                    </div>
+                  </div>
+                </div>
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      {%- else -%}
+        <div class="testimonials-grid">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'testimonial' -%}
+                <div class="testimonial-card" {{ block.shopify_attributes }}>
+                  {%- if block.settings.star_rating > 0 -%}
+                    <div class="testimonial__rating">
+                      {%- for i in (1..5) -%}
+                        {%- if i <= block.settings.star_rating -%}
+                          <span class="star filled">★</span>
+                        {%- else -%}
+                          <span class="star empty">☆</span>
+                        {%- endif -%}
+                      {%- endfor -%}
+                    </div>
+                  {%- endif -%}
+
+                  {%- unless block.settings.testimonial_text == blank -%}
+                    <blockquote class="testimonial__quote">
+                      <p>{{ block.settings.testimonial_text }}</p>
+                    </blockquote>
+                  {%- endunless -%}
+
+                  <div class="testimonial__author">
+                    {%- if block.settings.customer_image != blank -%}
+                      <div class="testimonial__image">
+                        {{
+                          block.settings.customer_image
+                          | image_url: width: 120
+                          | image_tag: loading: 'lazy', alt: block.settings.customer_name, widths: '60, 120, 180'
+                        }}
+                      </div>
+                    {%- endif -%}
+
+                    <div class="testimonial__details">
+                      {%- unless block.settings.customer_name == blank -%}
+                        <cite class="testimonial__name">{{ block.settings.customer_name }}</cite>
+                      {%- endunless -%}
+
+                      {%- unless block.settings.customer_title == blank -%}
+                        <p class="testimonial__title">{{ block.settings.customer_title }}</p>
+                      {%- endunless -%}
+
+                      {%- unless block.settings.testimonial_date == blank -%}
+                        <time class="testimonial__date" datetime="{{ block.settings.testimonial_date }}">
+                          {{ block.settings.testimonial_date | date: '%B %d, %Y' }}
+                        </time>
+                      {%- endunless -%}
+                    </div>
+                  </div>
+                </div>
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+    </div>
+
+    {%- if section.blocks.size == 0 -%}
+      <div class="testimonials-placeholder">
+        <p>Add testimonial blocks to showcase customer reviews and experiences.</p>
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    // Initialize Owl Carousel for testimonials
+    $('.testimonials-carousel').owlCarousel({
+      items: 3,
+      loop: true,
+      margin: 30,
+      nav: true,
+      dots: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      autoHeight: false,
+      navText: [
+        '<svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"/></svg>',
+        '<svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"/></svg>',
+      ],
+      responsive: {
+        0: {
+          items: 1,
+          margin: 0,
+        },
+        768: {
+          items: 2,
+          margin: 20,
+        },
+        1000: {
+          items: (function () {
+            var columns = $('.testimonials-carousel').data('columns');
+            return Math.min(columns || 3, 4);
+          })(),
+          margin: 30,
+        },
+      },
+      onInitialized: function (event) {
+        // Ensure equal heights after initialization
+        var $carousel = $(event.target);
+        equalizeHeights($carousel);
+        updateDots($carousel);
+      },
+      onResized: function (event) {
+        // Re-equalize heights on resize
+        var $carousel = $(event.target);
+        setTimeout(function () {
+          equalizeHeights($carousel);
+          updateDots($carousel);
+        }, 100);
+      },
+      onChanged: function (event) {
+        // Update dots when slide changes
+        var $carousel = $(event.target);
+        updateDots($carousel);
+      },
+    });
+
+    // Function to equalize heights
+    function equalizeHeights($carousel) {
+      $carousel.find('.owl-item').css('height', 'auto');
+      $carousel.find('.testimonial-card').css('height', 'auto');
+
+      var maxHeight = 0;
+      $carousel.find('.owl-item.active .testimonial-card').each(function () {
+        var cardHeight = $(this).outerHeight();
+        maxHeight = Math.max(maxHeight, cardHeight);
+      });
+
+      if (maxHeight > 0) {
+        $carousel.find('.owl-item .testimonial-card').css('height', maxHeight + 'px');
+      }
+    }
+
+    // Function to update dots based on current responsive settings
+    function updateDots($carousel) {
+      var owlData = $carousel.data('owl.carousel');
+      if (owlData) {
+        var totalItems = owlData._items.length;
+        var itemsPerSlide = owlData.settings.items;
+        var totalPages = Math.ceil(totalItems / itemsPerSlide);
+
+        // Get the actual current position considering loop
+        var currentPosition = owlData.relative(owlData.current());
+        var currentPage = Math.floor(currentPosition / itemsPerSlide);
+
+        // Ensure currentPage is within valid range
+        currentPage = currentPage % totalPages;
+        if (currentPage < 0) currentPage = totalPages + currentPage;
+
+        // Find dots container (could be sibling or within carousel)
+        var $dots = $carousel.find('.owl-dots .owl-dot');
+        if ($dots.length === 0) {
+          $dots = $carousel.siblings('.owl-dots').find('.owl-dot');
+        }
+
+        $dots.each(function (index) {
+          $(this).toggleClass('active', index === currentPage);
+          $(this).toggle(index < totalPages);
+        });
+      }
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Testimonials-v2",
+  "tag": "section",
+  "class": "section section-testimonials",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Settings"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "What Our Customers Say",
+      "label": "Section Title"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "default": "Read genuine reviews from our satisfied customers",
+      "label": "Subtitle"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        },
+        {
+          "value": "hxl",
+          "label": "Extra Large"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading size"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "grid",
+          "label": "Grid Layout"
+        },
+        {
+          "value": "carousel",
+          "label": "Carousel Layout"
+        }
+      ],
+      "default": "grid",
+      "label": "Layout Style"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 3,
+      "label": "Number of columns on desktop"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Customer Information"
+        },
+        {
+          "type": "text",
+          "id": "customer_name",
+          "default": "Sarah Johnson",
+          "label": "Customer Name",
+          "info": "The name of the customer giving the testimonial"
+        },
+        {
+          "type": "text",
+          "id": "customer_title",
+          "default": "Verified Buyer",
+          "label": "Customer Title/Position",
+          "info": "Optional title, job, or designation (e.g., 'CEO', 'Verified Buyer', 'Long-time Customer')"
+        },
+        {
+          "type": "image_picker",
+          "id": "customer_image",
+          "label": "Customer Photo",
+          "info": "Upload a photo of the customer (optional)"
+        },
+        {
+          "type": "header",
+          "content": "Testimonial Content"
+        },
+        {
+          "type": "range",
+          "id": "star_rating",
+          "min": 0,
+          "max": 5,
+          "step": 1,
+          "default": 5,
+          "label": "Star Rating",
+          "info": "Set to 0 to hide star rating"
+        },
+        {
+          "type": "textarea",
+          "id": "testimonial_text",
+          "default": "This product exceeded my expectations! The quality is outstanding and the customer service was fantastic. I would definitely recommend this to anyone looking for a reliable solution.",
+          "label": "Testimonial Text",
+          "info": "The main review or testimonial content"
+        },
+        {
+          "type": "text",
+          "id": "testimonial_date",
+          "label": "Review Date",
+          "info": "Format: YYYY-MM-DD (e.g., 2024-03-15)",
+          "placeholder": "2024-03-15"
+        },
+        {
+          "type": "header",
+          "content": "Product Reference (Optional)"
+        },
+        {
+          "type": "image_picker",
+          "id": "product_image",
+          "label": "Product Picture",
+          "info": "Optional image of the product being reviewed"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials",
+      "blocks": [
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Sarah Johnson",
+            "customer_title": "Verified Buyer",
+            "star_rating": 5,
+            "testimonial_text": "This product exceeded my expectations! The quality is outstanding and the customer service was fantastic. I would definitely recommend this to anyone looking for a reliable solution.",
+            "testimonial_date": "2024-01-15"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Mike Chen",
+            "customer_title": "Repeat Customer",
+            "star_rating": 5,
+            "testimonial_text": "I've been using this for months now and it's been perfect. Great value for money and exactly what I needed. The shipping was fast too!",
+            "testimonial_date": "2024-02-08"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "customer_name": "Emily Rodriguez",
+            "customer_title": "First-time Buyer",
+            "star_rating": 4,
+            "testimonial_text": "Really happy with my purchase. The product works as described and arrived quickly. Would buy again!",
+            "testimonial_date": "2024-02-20"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
