@@ -343,6 +343,25 @@
           "secondary_button_label": "#1d1d1f",
           "input_border_color": "#fb542f"
         }
+      },
+      "scheme-8bcf9157-28ca-46b8-b683-8cb5747483a0": {
+        "settings": {
+          "background": "#121212",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "text_secondary": "#8c8c8c",
+          "accent_color": "#9a0f39",
+          "button": "#9a0f39",
+          "button_label": "#ffffff",
+          "button_hover": "#ff7151",
+          "button_label_hover": "#ffffff",
+          "button_2": "#ffffff",
+          "button_label_2": "#ffffff",
+          "button_2_hover": "#ffffff",
+          "button_label_2_hover": "#ffffff",
+          "secondary_button_label": "#121212",
+          "input_border_color": "#d9d9d9"
+        }
       }
     }
   },

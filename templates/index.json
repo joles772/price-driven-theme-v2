@@ -113,7 +113,6 @@
     },
     "ss_wave_2_WUU6xq": {
       "type": "ss-wave-2",
-      "disabled": true,
       "settings": {
         "wave_height": 120,
         "wave_height_mobile": 80,
@@ -190,7 +189,6 @@
     },
     "ss_wave_2_PCQcnq": {
       "type": "ss-wave-2",
-      "disabled": true,
       "name": "SS - Wave #2",
       "settings": {
         "wave_height": 120,
@@ -550,7 +548,7 @@
         "currency_symbol": "",
         "price_period": "per month",
         "featured_tier": "premium",
-        "popular_badge_text": "Most Popular",
+        "popular_badge_text": "Best Value",
         "show_feature_icons": true,
         "basic_name": "Without Price Driven",
         "basic_price": "",
@@ -565,14 +563,14 @@
         "standard_features": "See the dealer discount\n1 hour average time commitment\nLow stress\nNegotiate with confidence\nSave what you negotiate",
         "standard_disabled_features": "",
         "standard_button_text": "Browse Reports",
-        "standard_button_link": "",
+        "standard_button_link": "shopify://collections/all",
         "premium_name": "With Premium Price Driven Car Negotiating Service",
         "premium_price": "",
         "premium_description": "Let our team of professional car negotiators set up your car deal for you",
         "premium_features": "See the dealer discount\n10 minute average time commitment\nNo stress\nWe negotiate for you\nGuaranteed best price",
         "premium_disabled_features": "None",
         "premium_button_text": "Go Premium",
-        "premium_button_link": "",
+        "premium_button_link": "shopify://products/pre-negotiated-pricing-service",
         "padding_top": 36,
         "padding_bottom": 36
       }

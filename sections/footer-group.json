@@ -127,6 +127,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "image_HwNRKe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/price-driven-logo-v2_69afd96b-0f61-442c-b241-22c517966570.png",
+            "image_width": 280,
+            "alignment": "center"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -143,6 +151,7 @@
         },
         "footer-1": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "",
             "menu": ""
@@ -157,6 +166,7 @@
         }
       },
       "block_order": [
+        "image_HwNRKe",
         "footer-0",
         "89f2b72b-8551-4b3c-a430-1719424d7f61",
         "footer-1",
