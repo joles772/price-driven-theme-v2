@@ -102,6 +102,7 @@
     },
     "ss_wave_2_WUU6xq": {
       "type": "ss-wave-2",
+      "disabled": true,
       "settings": {
         "wave_height": 120,
         "wave_height_mobile": 80,
@@ -178,6 +179,7 @@
     },
     "ss_wave_2_PCQcnq": {
       "type": "ss-wave-2",
+      "disabled": true,
       "name": "SS - Wave #2",
       "settings": {
         "wave_height": 120,
@@ -271,6 +273,7 @@
     },
     "ss_wave_2_eiKntP": {
       "type": "ss-wave-2",
+      "disabled": true,
       "name": "SS - Wave #2",
       "settings": {
         "wave_height": 120,
@@ -377,9 +380,9 @@
         "b8900895-9cde-4a67-b5eb-d5de7901cc3c"
       ],
       "settings": {
-        "title": "Choose by Make",
+        "title": "Free Discount Reports by Make",
         "heading_alignment": "center",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "text_size_block": "medium",
         "tabs_font_size": "h6",
@@ -529,33 +532,33 @@
       "type": "pricing-tier-table",
       "name": "Pricing Tier Table",
       "settings": {
-        "title": "Choose Your Plan",
-        "subtitle": "Select the perfect plan for your needs",
-        "heading_size": "h1",
+        "title": "See The Difference",
+        "subtitle": "Find out what Price Driven brings to the table",
+        "heading_size": "h2",
         "color_scheme": "scheme-1",
-        "currency_symbol": "$",
+        "currency_symbol": "",
         "price_period": "per month",
         "featured_tier": "premium",
         "popular_badge_text": "Most Popular",
         "show_feature_icons": true,
-        "basic_name": "Basic",
-        "basic_price": "9",
-        "basic_description": "Perfect for individuals getting started",
-        "basic_features": "Up to 5 projects\nBasic support\n10GB storage\nEmail integration",
-        "basic_disabled_features": "Advanced analytics\nTeam collaboration\nAPI access",
-        "basic_button_text": "Get Started",
+        "basic_name": "Without Price Driven",
+        "basic_price": "",
+        "basic_description": "Negotiate without knowing all the details",
+        "basic_features": "",
+        "basic_disabled_features": "Limited or unclear discount data\n4+ hours average time commitment\nHigh stress\nNegotiate alone\nNo guaranteed savings",
+        "basic_button_text": "",
         "basic_button_link": "",
-        "standard_name": "Standard",
-        "standard_price": "29",
-        "standard_description": "Best for growing businesses and teams",
-        "standard_features": "Up to 25 projects\nPriority support\n100GB storage\nEmail & chat integration\nAdvanced analytics\nTeam collaboration",
-        "standard_disabled_features": "API access\nCustom branding",
-        "standard_button_text": "Choose Standard",
+        "standard_name": "With Free Price Driven Discount Reports",
+        "standard_price": "",
+        "standard_description": "Use your free discount report to negotiate with confidence",
+        "standard_features": "See the dealer discount\n1 hour average time commitment\nLow stress\nNegotiate with confidence\nSave what you negotiate",
+        "standard_disabled_features": "",
+        "standard_button_text": "Browse Reports",
         "standard_button_link": "",
-        "premium_name": "Premium",
-        "premium_price": "99",
-        "premium_description": "For enterprises requiring maximum power",
-        "premium_features": "Unlimited projects\n24/7 dedicated support\nUnlimited storage\nFull integration suite\nAdvanced analytics & reporting\nDedicated account manager\nCustom branding\nAPI access",
+        "premium_name": "With Premium Price Driven Car Negotiating Service",
+        "premium_price": "",
+        "premium_description": "Let our team of professional car negotiators set up your car deal for you",
+        "premium_features": "See the dealer discount\n10 minute average time commitment\nNo stress\nWe negotiate for you\nGuaranteed best price",
         "premium_disabled_features": "None",
         "premium_button_text": "Go Premium",
         "premium_button_link": "",
@@ -1102,7 +1105,7 @@
         "collection_AVzyCU"
       ],
       "settings": {
-        "title": "Choose By Style",
+        "title": "Free Discount Reports By Style",
         "heading_alignment": "center",
         "heading_size": "h2",
         "description": "",
@@ -1453,6 +1456,47 @@
         "padding_bottom": 0
       }
     },
+    "email_signup_banner_v2_Qgk9XM": {
+      "type": "email-signup-banner-v2",
+      "blocks": {
+        "heading_9mynbr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Never Miss An Update",
+            "heading_size": "h2"
+          }
+        },
+        "paragraph_DLapaq": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Stay in the loop about the latest car deals</p>",
+            "text_style": "body"
+          }
+        },
+        "email_form_iqamrG": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_9mynbr",
+        "paragraph_DLapaq",
+        "email_form_iqamrG"
+      ],
+      "name": "t:sections.email-signup-banner.presets.name",
+      "settings": {
+        "show_background_image": true,
+        "image": "shopify://shop_images/Lexus_IS.avif",
+        "image_overlay_opacity": 60,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
     "f6e4d7b0-8b93-4391-bc83-1d3b618d2ed3": {
       "type": "featured-blog",
       "settings": {
@@ -1472,41 +1516,6 @@
         "swipe_on_mobile": false,
         "padding_top": 70,
         "padding_bottom": 140
-      }
-    },
-    "email_signup_banner_EyCLDT": {
-      "type": "email-signup-banner",
-      "blocks": {
-        "heading_EM9may": {
-          "type": "heading",
-          "settings": {
-            "heading": "Opening soon",
-            "heading_size": "h2"
-          }
-        },
-        "paragraph_CNMxct": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know when we launch.</p>"
-          }
-        },
-        "email_form_MQikUE": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_EM9may",
-        "paragraph_CNMxct",
-        "email_form_MQikUE"
-      ],
-      "name": "t:sections.email-signup-banner.presets.name",
-      "settings": {
-        "image_overlay_opacity": 39,
-        "show_background_image": true,
-        "image_position": "left",
-        "desktop_content_alignment": "center",
-        "color_scheme": ""
       }
     }
   },
@@ -1534,7 +1543,7 @@
     "ss_feature_22_qYzj98",
     "custom_liquid_tzBfN7",
     "homepage_discount_banner",
-    "f6e4d7b0-8b93-4391-bc83-1d3b618d2ed3",
-    "email_signup_banner_EyCLDT"
+    "email_signup_banner_v2_Qgk9XM",
+    "f6e4d7b0-8b93-4391-bc83-1d3b618d2ed3"
   ]
 }
