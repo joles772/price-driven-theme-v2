@@ -1474,39 +1474,45 @@
         "padding_bottom": 140
       }
     },
-    "email_signup_banner_EyCLDT": {
-      "type": "email-signup-banner",
+    "email_signup_banner_v2_Qgk9XM": {
+      "type": "email-signup-banner-v2",
       "blocks": {
-        "heading_EM9may": {
+        "heading_9mynbr": {
           "type": "heading",
           "settings": {
-            "heading": "Opening soon",
+            "heading": "Never Miss An Update",
             "heading_size": "h2"
           }
         },
-        "paragraph_CNMxct": {
+        "paragraph_DLapaq": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know when we launch.</p>"
+            "text": "<p>Stay in the loop about the latest car deals</p>",
+            "text_style": "body"
           }
         },
-        "email_form_MQikUE": {
+        "email_form_iqamrG": {
           "type": "email_form",
           "settings": {}
         }
       },
       "block_order": [
-        "heading_EM9may",
-        "paragraph_CNMxct",
-        "email_form_MQikUE"
+        "heading_9mynbr",
+        "paragraph_DLapaq",
+        "email_form_iqamrG"
       ],
       "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
-        "image_overlay_opacity": 39,
         "show_background_image": true,
-        "image_position": "left",
+        "image": "shopify://shop_images/Lexus_IS.avif",
+        "image_overlay_opacity": 60,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
-        "color_scheme": ""
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     }
   },
@@ -1534,7 +1540,7 @@
     "ss_feature_22_qYzj98",
     "custom_liquid_tzBfN7",
     "homepage_discount_banner",
-    "f6e4d7b0-8b93-4391-bc83-1d3b618d2ed3",
-    "email_signup_banner_EyCLDT"
+    "email_signup_banner_v2_Qgk9XM",
+    "f6e4d7b0-8b93-4391-bc83-1d3b618d2ed3"
   ]
 }
