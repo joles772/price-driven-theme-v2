@@ -92,7 +92,7 @@
       ],
       "custom_css": [
         "header details.collections-list {display: none !important;}",
-        "header form.search .field::before,header details.collections-list .field::after {box-shadow: none !important;}",
+        "header form.search .field::before,header form.search .field::after {box-shadow: none !important;}",
         "header form.search .field input {border-radius: 40px !important;}"
       ],
       "settings": {
