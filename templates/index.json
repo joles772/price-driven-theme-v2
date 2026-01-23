@@ -240,7 +240,7 @@
         "row_VjdKA4": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/choose-your-car.jpg",
+            "image": "shopify://shop_images/marginalia-man-renting-a-car-from-car-rental.png",
             "caption": "Step 1",
             "heading": "Choose Your Car",
             "text": "<p>Browse our comprehensive selection of cars and find your perfect vehicle. Filter by make, model, year, and more.</p>",
@@ -251,7 +251,7 @@
         "row_A3GF4B": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/home-download-your-report.jpg",
+            "image": "shopify://shop_images/marginalia-car-rental-rating.png",
             "caption": "Step 2",
             "heading": "Download a Free Discount Report or Go Premium",
             "text": "<p>Download a free discount report to see the dealer price of your car, including promotions and incentives. Use your report to negotiate with confidence.</p><p>Or</p><p>Go with our Premium Vehicle Negotiating Service. Our experts negotiate and prepare your car deal. All you have to do is go in and sign at the dealership.</p>",
