@@ -102,6 +102,7 @@
         "heading_px6b48",
         "text_zW3Ldw"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
