@@ -70,11 +70,11 @@
               {%- when 'image' -%}
                 <div class="rich-text__image{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {{ block.shopify_attributes }} {% if settings.animations_reveal_on_scroll %} data-cascade style="--animation-order: {{ forloop.index }};" {% endif %}>
                   {%- if block.settings.image != blank -%}
-                    <div class="rich-text__image-wrapper" style="max-width: {{ block.settings.image_width }}px; margin: 0 auto;">
+                    <div class="rich-text__image-wrapper" style="max-width: {{ block.settings.image_width }}px; width: 100%; margin: 0 auto;">
                       {%- if block.settings.image_link != blank -%}
                         <a href="{{ block.settings.image_link }}">
                       {%- endif -%}
-                      {%- assign image_style = 'width: 100%; height: auto;' -%}
+                      {%- assign image_style = 'width: 100%; height: auto; display: block;' -%}
                       {%- if block.settings.border_radius > 0 -%}
                         {%- assign image_style = image_style | append: ' border-radius: ' | append: block.settings.border_radius | append: 'px;' -%}
                       {%- endif -%}
@@ -88,7 +88,7 @@
                       {%- endif -%}
                     </div>
                   {%- else -%}
-                    <div class="rich-text__image-placeholder" style="max-width: {{ block.settings.image_width }}px; margin: 0 auto;">
+                    <div class="rich-text__image-placeholder" style="max-width: {{ block.settings.image_width }}px; width: 100%; margin: 0 auto;">
                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
                     </div>
                   {%- endif -%}
