@@ -102,6 +102,7 @@
     },
     "ss_wave_2_WUU6xq": {
       "type": "ss-wave-2",
+      "disabled": true,
       "settings": {
         "wave_height": 120,
         "wave_height_mobile": 80,
@@ -178,6 +179,7 @@
     },
     "ss_wave_2_PCQcnq": {
       "type": "ss-wave-2",
+      "disabled": true,
       "name": "SS - Wave #2",
       "settings": {
         "wave_height": 120,
@@ -271,6 +273,7 @@
     },
     "ss_wave_2_eiKntP": {
       "type": "ss-wave-2",
+      "disabled": true,
       "name": "SS - Wave #2",
       "settings": {
         "wave_height": 120,
