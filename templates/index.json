@@ -561,7 +561,7 @@
         "standard_price": "",
         "standard_description": "Use your free discount report to negotiate with confidence",
         "standard_features": "See the dealer discount\n1 hour average time commitment\nLow stress\nNegotiate with confidence\nSave what you negotiate",
-        "standard_disabled_features": "",
+        "standard_disabled_features": "Guaranteed savings",
         "standard_button_text": "Browse Reports",
         "standard_button_link": "shopify://collections/all",
         "premium_name": "With Premium Price Driven Car Negotiating Service",
