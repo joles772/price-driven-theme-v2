@@ -90,6 +90,9 @@
         "item_icon_bYTyq7",
         "item_icon_Pw4F4Y"
       ],
+      "custom_css": [
+        "header details.collections-list {display: none !important}"
+      ],
       "settings": {
         "logo_position": "top-left",
         "menu": "main-menu",
