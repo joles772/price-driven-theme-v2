@@ -23,7 +23,7 @@
             "text": "<p>Check out our <strong>FREE </strong>discount reports or let our team of professional car negotiators set up your deal so you don't have to.</p>",
             "text_size_block": "medium",
             "button_label_1": "Car Brands",
-            "button_link_1": "#shopify-section-template--23787786338607__a845fd8c-a661-412b-b2da-7787cec2a078",
+            "button_link_1": "#shopify-section-template--25893772296495__multirow_LEXijB",
             "button_style_secondary_1": true,
             "button_label_2": "Pricing",
             "button_link_2": "shopify://pages/pricing",
@@ -243,7 +243,7 @@
             "caption": "Step 1",
             "heading": "Choose Your Car",
             "text": "<p>Browse our comprehensive selection of cars and find your perfect vehicle. Filter by make, model, year, and more.</p>",
-            "button_label": "#25893772296495",
+            "button_label": "",
             "button_link": ""
           }
         },
