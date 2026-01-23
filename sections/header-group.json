@@ -93,8 +93,9 @@
       "custom_css": [
         "header details.collections-list {display: none !important;}",
         "header form.search .field::before,header form.search .field::after {box-shadow: none !important;}",
-        "header form.search .field input {border-radius: 40px !important;}",
-        "header form.search .field .field__label {color: black !important}"
+        "header form.search .field input {border-radius: 15px !important;}",
+        "header form.search .field .field__label {color: black !important;}",
+        "header form.search .field .search__button {border-top-right-radius: 15px; border-bottom-right-radius: 15px;}"
       ],
       "settings": {
         "logo_position": "top-left",
