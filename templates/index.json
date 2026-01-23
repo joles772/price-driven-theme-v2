@@ -377,9 +377,9 @@
         "b8900895-9cde-4a67-b5eb-d5de7901cc3c"
       ],
       "settings": {
-        "title": "Choose by Make",
+        "title": "Free Discount Reports by Make",
         "heading_alignment": "center",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "text_size_block": "medium",
         "tabs_font_size": "h6",
@@ -529,9 +529,9 @@
       "type": "pricing-tier-table",
       "name": "Pricing Tier Table",
       "settings": {
-        "title": "Choose Your Plan",
+        "title": "See The Difference",
         "subtitle": "Select the perfect plan for your needs",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "color_scheme": "scheme-1",
         "currency_symbol": "$",
         "price_period": "per month",
@@ -1102,7 +1102,7 @@
         "collection_AVzyCU"
       ],
       "settings": {
-        "title": "Choose By Style",
+        "title": "Free Discount Reports By Style",
         "heading_alignment": "center",
         "heading_size": "h2",
         "description": "",
@@ -1453,27 +1453,6 @@
         "padding_bottom": 0
       }
     },
-    "f6e4d7b0-8b93-4391-bc83-1d3b618d2ed3": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Blog",
-        "heading_size": "h2",
-        "blog": "podcast-articles",
-        "read_more_title": "Read More",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "scheme-2",
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "show_comment": false,
-        "all_button_style": "outline",
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "padding_top": 70,
-        "padding_bottom": 140
-      }
-    },
     "email_signup_banner_v2_Qgk9XM": {
       "type": "email-signup-banner-v2",
       "blocks": {
@@ -1513,6 +1492,27 @@
         "color_scheme": "scheme-4",
         "mobile_content_alignment": "center",
         "show_text_below": true
+      }
+    },
+    "f6e4d7b0-8b93-4391-bc83-1d3b618d2ed3": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog",
+        "heading_size": "h2",
+        "blog": "podcast-articles",
+        "read_more_title": "Read More",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-2",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_comment": false,
+        "all_button_style": "outline",
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "padding_top": 70,
+        "padding_bottom": 140
       }
     }
   },
