@@ -73,6 +73,16 @@
     "rich_text_DfnJHV": {
       "type": "rich-text",
       "blocks": {
+        "image_gWjETY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pngtree_vector_car_icon_3989845_92d2429e-97a2-4df3-8091-efd1fc40b21b.png",
+            "image_alt": "",
+            "image_width": 450,
+            "border_radius": 0,
+            "image_link": ""
+          }
+        },
         "heading_px6b48": {
           "type": "heading",
           "settings": {
@@ -88,6 +98,7 @@
         }
       },
       "block_order": [
+        "image_gWjETY",
         "heading_px6b48",
         "text_zW3Ldw"
       ],
