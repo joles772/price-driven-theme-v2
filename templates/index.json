@@ -113,7 +113,6 @@
     },
     "ss_wave_2_WUU6xq": {
       "type": "ss-wave-2",
-      "disabled": true,
       "settings": {
         "wave_height": 120,
         "wave_height_mobile": 80,
