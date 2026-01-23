@@ -1,6 +1,11 @@
 {{ 'section-rich-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+  .section-{{ section.id }}-padding .rich-text__image-wrapper img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
   @media screen and (max-width: 749px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.57 | round: 0 }}px;
@@ -78,12 +83,7 @@
                       {%- if block.settings.border_radius > 0 -%}
                         {%- assign image_style = image_style | append: ' border-radius: ' | append: block.settings.border_radius | append: 'px;' -%}
                       {%- endif -%}
-                      {{ block.settings.image | image_url: width: 1200 | image_tag: 
-                        loading: 'lazy',
-                        alt: block.settings.image.alt | default: block.settings.image_alt,
-                        style: image_style,
-                        sizes: '(max-width: 749px) 100vw, (max-width: 999px) 750px, ' | append: block.settings.image_width | append: 'px'
-                      }}
+                      {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', alt: block.settings.image.alt | default: block.settings.image_alt, style: image_style -}}
                       {%- if block.settings.image_link != blank -%}
                         </a>
                       {%- endif -%}
