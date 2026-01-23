@@ -91,7 +91,9 @@
         "item_icon_Pw4F4Y"
       ],
       "custom_css": [
-        "header details.collections-list {display: none !important}"
+        "header details.collections-list {display: none !important;}",
+        "header details.collections-list .field::before, header details.collections-list .field::after{box-shadow: none !important;}",
+        "header details.collections-list .field input {border-radius: 40px !important}"
       ],
       "settings": {
         "logo_position": "top-left",
