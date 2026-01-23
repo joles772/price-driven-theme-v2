@@ -189,7 +189,6 @@
     },
     "ss_wave_2_PCQcnq": {
       "type": "ss-wave-2",
-      "disabled": true,
       "name": "SS - Wave #2",
       "settings": {
         "wave_height": 120,
