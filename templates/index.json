@@ -75,6 +75,7 @@
       "blocks": {
         "image_3amPwp": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Pngtree_vector_car_icon_3989845_92d2429e-97a2-4df3-8091-efd1fc40b21b.png",
             "image_alt": "",
