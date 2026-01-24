@@ -217,7 +217,7 @@
         "heading_WRnTF6": {
           "type": "heading",
           "settings": {
-            "heading": "How It Works",
+            "heading": "How We Help Canadians Buy Cars",
             "heading_size": "h2"
           }
         }
@@ -266,7 +266,7 @@
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_image_width": "medium",
         "heading_size": "h2",
         "text_style": "body",
@@ -277,7 +277,7 @@
         "section_color_scheme": "",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 70,
+        "padding_top": 24,
         "padding_bottom": 70
       }
     },
