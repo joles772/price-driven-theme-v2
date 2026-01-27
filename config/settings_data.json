@@ -197,18 +197,6 @@
         "disabled": false,
         "settings": {}
       },
-      "13941932224563198139": {
-        "type": "shopify://apps/sms-alert/blocks/sa-checkout/cd0c18de-0a25-486c-afdc-d7e6d34dfe38",
-        "disabled": false,
-        "settings": {
-          "phone_label": "Mobile Number",
-          "phone_placeholder": "Mobile Number",
-          "theme_style": "style1",
-          "form_width": "small",
-          "button_label": "Submit",
-          "colour": "#00a4ff"
-        }
-      },
       "2200952712151285029": {
         "type": "shopify://apps/microsoft-clarity/blocks/brandAgents_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
         "disabled": false,
@@ -218,6 +206,18 @@
         "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
         "disabled": false,
         "settings": {}
+      },
+      "13941932224563198139": {
+        "type": "shopify://apps/sms-alert/blocks/sa-checkout/cd0c18de-0a25-486c-afdc-d7e6d34dfe38",
+        "disabled": false,
+        "settings": {
+          "phone_label": "Phone Number",
+          "phone_placeholder": "Phone Number",
+          "theme_style": "style1",
+          "form_width": "small",
+          "button_label": "Verify",
+          "colour": "#9a0f39"
+        }
       }
     },
     "color_schemes": {
