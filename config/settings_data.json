@@ -83,7 +83,7 @@
     "currency_code_enabled": false,
     "cart_type": "page",
     "show_vendor": false,
-    "show_cart_note": true,
+    "show_cart_note": false,
     "drawer_text": "Free Shipping On All Orders Above $50!",
     "cart_drawer_promoted_collection": "",
     "cart_drawer_collection": "",
