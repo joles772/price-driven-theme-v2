@@ -1,1 +1,1076 @@
-{"sections":{"main":{"type":"main-product","blocks":{"breadcrumbs_374JWg":{"type":"breadcrumbs","settings":{"color_scheme":"scheme-2","home":"Home","breadcrumbs_collection":true}},"title":{"type":"title","settings":{"heading_size":"h2"}},"price":{"type":"price","settings":{"price_size":"price--medium"}},"inventory_pbCRT8":{"type":"inventory","settings":{"inventory_base":100,"inventory_threshold":10,"show_inventory_quantity":true,"show_progress_bar":true,"color_in_stock":"#2cb683","color_low_stock":"#ff353c"}},"variant_picker":{"type":"variant_picker","settings":{"color_scheme":"","picker_type":"button","swatch_picker_type":"dropdown","swatch_shape":"none","swatches_style":"outlined"}},"buy_buttons":{"type":"buy_buttons","settings":{"color_scheme":"","show_dynamic_checkout":false,"show_gift_card_recipient":true}},"custom_liquid_EDfBfJ":{"type":"custom_liquid","settings":{"custom_liquid":"<div data-review-quote-slider-target><\/div>"}},"35c54d21-aabe-4447-934d-bc793c25fd66":{"type":"complementary","settings":{"block_heading":"You may also buy these products","product_list_limit":10,"pagination_style":"arrows","image_ratio":"portrait","enable_quick_add":true}},"custom_liquid_ewhbkE":{"type":"custom_liquid","settings":{"custom_liquid":"<div id='ss-tabs-icon-insert-block'><\/div>"}},"description_nKVqYi":{"type":"description","disabled":true,"settings":{"text_size_block":"medium"}},"text_xtRNAN":{"type":"text","settings":{"text":"<strong>Note:<\/strong> This is product is a PDF with the amount of 'Discount' available in this particular vehicle. It doesn't guarantee any discounts.","text_size":"text--small","text_color":"text-secondary"}}},"block_order":["breadcrumbs_374JWg","title","price","inventory_pbCRT8","variant_picker","buy_buttons","custom_liquid_EDfBfJ","35c54d21-aabe-4447-934d-bc793c25fd66","custom_liquid_ewhbkE","description_nKVqYi","text_xtRNAN"],"settings":{"enable_sticky_info":true,"color_scheme":"","media_size":"medium","media_position":"left","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"stacked-3","thumbnail_position":"left","image_zoom":"lightbox","mobile_thumbnails":"show","hide_variants":false,"enable_video_looping":false,"padding_top":0,"padding_bottom":140}},"ss_featured_review_slider_VqB98f":{"type":"ss-featured-review-slider","blocks":{"quote_Mq9LE8":{"type":"quote","settings":{"quote":"<p>\"<\/p><p><strong>Jordan from Price Driven handled every detail. They connected me with a dealer who honored their pre-negotiated pricing. I paid just above invoice price and saved  $2,210. Worth every penny!<br\/><br\/><\/strong>Patricia T<\/p>"}},"quote_3WNbci":{"type":"quote","settings":{"quote":"<p>\"<\/p><p><strong>Armed with the invoice price, I walked in confident and saved $3,000. The dealer didn’t waste my time!<\/strong><\/p><p>- <em>Emily C<\/em><\/p>"}},"quote_wzL4yX":{"type":"quote","settings":{"quote":"<p><strong>\"<\/strong><\/p><p><strong>Price Driven tells you what the dealer pays for the car, but that doesn't mean you get to buy it at that cost.<br\/><br\/>But it does get you closer than going in blind.<\/strong><\/p><p>- Rex R<\/p>"}}},"block_order":["quote_Mq9LE8","quote_3WNbci","quote_wzL4yX"],"settings":{"example":"<div data-review-quote-slider-target><\/div>","pagination_color":"#7e6415","bg_color":"#f4f2ec","text_color":"#fb542f","border_radius":32,"font_size":16,"custom_classes":""}},"ss_wave_2_HceCWF":{"type":"ss-wave-2","settings":{"wave_height":120,"wave_height_mobile":80,"wave_animation":true,"wave_rotate":true,"wave_color":"#f4f2ec","background_color":"#ffffff","background_gradient":"","border_color":"#000000","margin_top":0,"margin_bottom":0,"padding_top":0,"padding_bottom":0,"padding_horizontal":0,"padding_horizontal_mobile":0,"full_width":true,"content_width":120,"border_thickness":0}},"ss_tabs_block_dBkTPn":{"type":"ss-tabs-block","blocks":{"tab_8nKL6w":{"type":"tab","settings":{"svg_color":"#121212","icon":"heart","image":"shopify:\/\/shop_images\/car_2.svg","question":"Car Description","answer":"","answer_html":"{{ product.description }}"}},"tab_BtMiCp":{"type":"tab","disabled":true,"settings":{"svg_color":"#121212","icon":"truck","question":"Shipping","answer":"<p>This is an answer<\/p>","answer_html":""}},"tab_rP4yGD":{"type":"tab","disabled":true,"settings":{"svg_color":"#121212","icon":"return_arrow","question":"Returns","answer":"<p>This is an answer<\/p>","answer_html":""}}},"block_order":["tab_8nKL6w","tab_BtMiCp","tab_rP4yGD"],"settings":{"close_other":false,"open_default":false,"subtitle":"","subtitle_color":"#121212","subtitle_font_size":10,"title":"","title_font_size":10,"title_color":"#121212","arrow_size":14,"arrow_color":"#121212","icon_width":22,"text_color":"#121212","question_font_size":13,"answer_color":"#121212","answer_font_size":12,"border_color":"#f2f2f2","background-color":"#ffffff","padding_top":12,"padding_bottom":12,"padding_x_desktop":0,"padding_x":0,"margin_top":0,"margin_bottom":0,"button_padding_y":10}},"hotspot_features":{"type":"image-hubspot-banner","blocks":{"hotspot_item_Vnme7E":{"type":"hotspot_item","settings":{"color_scheme":"scheme-1","heading":"The Free Discount Report For New Cars In <strong>Canada!<\/strong>","bullet_color":"","bullet_bg":"","horizontal_position":12,"vertical_position":44,"horizontal_position_mobile":7,"vertical_position_mobile":32,"bubble_position":"bubble-bottom","hide_mobile":false}},"hotspot_item_CzQwBr":{"type":"hotspot_item","settings":{"color_scheme":"scheme-1","heading":"<strong>The amount the dealership buys the car from the manufacturer<\/strong>","bullet_color":"","bullet_bg":"","horizontal_position":53,"vertical_position":57,"horizontal_position_mobile":50,"vertical_position_mobile":59,"bubble_position":"bubble-bottom","hide_mobile":false}},"hotspot_item_KTekHw":{"type":"hotspot_item","settings":{"color_scheme":"scheme-1","heading":"<strong>Each trim offers a variety of features and equipment<\/strong>","bullet_color":"","bullet_bg":"","horizontal_position":12,"vertical_position":57,"horizontal_position_mobile":8,"vertical_position_mobile":59,"bubble_position":"bubble-bottom","hide_mobile":false}},"hotspot_item_wmjXbr":{"type":"hotspot_item","settings":{"color_scheme":"scheme-1","heading":"<strong>The price the automaker suggests its dealers ask for the vehicle<\/strong>","bullet_color":"","bullet_bg":"","horizontal_position":34,"vertical_position":57,"horizontal_position_mobile":32,"vertical_position_mobile":59,"bubble_position":"bubble-bottom","hide_mobile":false}},"hotspot_item_UeX6JQ":{"type":"hotspot_item","settings":{"color_scheme":"scheme-1","heading":"<strong>The amount of \"Discount\" there is!<\/strong>","bullet_color":"","bullet_bg":"","horizontal_position":74,"vertical_position":57,"horizontal_position_mobile":72,"vertical_position_mobile":59,"bubble_position":"bubble-bottom","hide_mobile":false}}},"block_order":["hotspot_item_Vnme7E","hotspot_item_CzQwBr","hotspot_item_KTekHw","hotspot_item_wmjXbr","hotspot_item_UeX6JQ"],"settings":{"heading":"Free Discount Report","heading_alignment":"center","heading_size":"h2","text":"<p>Know the Discounts Before You Buy with Our <strong>Free<\/strong> Car Discount Reports!<\/p>","text_size_block":"medium","image":"shopify:\/\/shop_images\/Screenshot_2024-11-30_at_6.26.27_PM-2.jpg","color_scheme":"scheme-1","section_full_width":false,"section_container_width":false,"hide_scroll_mobile":false,"padding_top":12,"padding_bottom":42}},"ss_comparison_table_2_UMKGwC":{"type":"ss-comparison-table-2","blocks":{"item_TwqTtG":{"type":"item","settings":{"row_heading":"Upfront (Discount) Pricing","first_icon":"yes","second_icon":"yes","third_icon":"no"}},"item_9tTFrA":{"type":"item","settings":{"row_heading":"Support Availability","first_icon":"yes","second_icon":"yes","third_icon":"no"}},"item_xPVJx9":{"type":"item","settings":{"row_heading":"Guaranteed Savings","first_icon":"yes","second_icon":"no","third_icon":"no"}},"item_THhKiW":{"type":"item","settings":{"row_heading":"Negotiation Required","first_icon":"no","second_icon":"yes","third_icon":"yes"}},"item_6DR3re":{"type":"item","settings":{"row_heading":"Hidden Fees","first_icon":"no","second_icon":"dont_know","third_icon":"dont_know"}}},"block_order":["item_TwqTtG","item_9tTFrA","item_xPVJx9","item_THhKiW","item_6DR3re"],"settings":{"heading":"You vs Dealerships","heading_custom":false,"heading_font":"assistant_n4","heading_size":50,"heading_height":100,"heading_align":"center","table_mt":50,"table_radius":10,"table_border_thickness":3,"table_column_active":"1","table_column_active_radius":10,"first_heading":"Pre-Negotiated Pricing","second_heading":"Free Discount Reports","third_heading":"Without Price Driven","table_heading_custom":false,"table_heading_font":"assistant_n4","table_heading_size":24,"table_heading_size_mobile":10,"table_heading_height":100,"table_heading_align":"center","table_heading_padding_horizontal":20,"table_heading_padding_horizontal_mobile":4,"table_heading_padding_vertical":20,"table_heading_padding_vertical_mobile":10,"table_row_padding_horizontal":20,"table_row_padding_horizontal_mobile":4,"table_row_padding_vertical":20,"table_row_padding_vertical_mobile":10,"table_row_heading_custom":false,"table_row_heading_font":"assistant_n4","table_row_heading_size":26,"table_row_heading_size_mobile":10,"table_row_heading_height":100,"table_row_heading_align":"center","table_icon_size":32,"table_icon_size_mobile":20,"heading_color":"#162471","table_border_color":"#d7d8d5","table_heading_color":"#162471","table_heading_active_color":"#ffffff","table_column_active_bg_color":"#162471","table_row_heading_color":"#040200","table_icon_color":"#162471","table_icon_active_color":"#ffffff","background_color":"#f6f4f2","background_gradient":"","border_color":"#000000","margin_top":0,"margin_bottom":0,"padding_top":36,"padding_bottom":36,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"full_width":false,"content_width":150,"border_thickness":0}},"multicolumn":{"type":"multicolumn","blocks":{"template--16766664409325__d9c67ae0-02b4-4b54-a01f-6f10449397c1-column-1":{"type":"column","disabled":true,"settings":{"item_color_scheme":"scheme-6","image":"shopify:\/\/shop_images\/professional-car-dealer-with-buyer-inside-vehicle-2024-07-12-00-40-46-utc_1.jpg","image_cover":true,"image_overlay_opacity":50,"reduce_spaces":false,"content_full_width":false,"caption":"Price Driven","title":"<strong>Guaranteed Savings<\/strong>","heading_size_block":"h2","subheading":"<p><strong>Price Driven<\/strong>: Pre-negotiated pricing ensures you get a specific discount with no guesswork.<br\/><br\/><\/p><p><strong>Without Price Driven<\/strong>: You may still need to negotiate at the dealership, and savings aren't guaranteed.<\/p>","text":"","text_size_block":"","button_style":"solid","link_label":"","link":""}},"template--16766664409325__d9c67ae0-02b4-4b54-a01f-6f10449397c1-column-2":{"type":"column","disabled":true,"settings":{"item_color_scheme":"scheme-3","image":"shopify:\/\/shop_images\/man-in-a-car-dealership-chooses-a-car-2024-03-25-23-37-31-utc_1_126a1805-c59a-4698-906d-e6fce015e0cd.jpg","image_cover":true,"image_overlay_opacity":50,"reduce_spaces":false,"content_full_width":false,"caption":"Price Driven","title":"<strong>Convenient Online Platform<\/strong>","heading_size_block":"h2","subheading":"<p><strong>Price Driven<\/strong>: Shop for your vehicle from the comfort of your home with an easy-to-navigate online platform that provides all the information you need in one place.<br\/><br\/><\/p><p><strong>Without Price Driven<\/strong>: You’ll likely have to visit multiple dealerships in person, often not knowing exactly what each has to offer.<\/p>","text":"","text_size_block":"","button_style":"solid","link_label":"","link":""}},"template--16766664409325__d9c67ae0-02b4-4b54-a01f-6f10449397c1-column-3":{"type":"column","disabled":true,"settings":{"item_color_scheme":"scheme-3","image":"shopify:\/\/shop_images\/car-parked-in-luxury-showroom-car-dealership-offi-2024-11-27-01-53-37-utc_1.jpg","image_cover":true,"image_overlay_opacity":50,"reduce_spaces":false,"content_full_width":false,"caption":"Price Driven","title":"<strong>No Negotiation Stress<\/strong>","heading_size_block":"h2","subheading":"<p><strong>Price Driven<\/strong>: Skip the haggling with dealers, as the price is already set and agreed upon.<br\/><br\/><\/p><p><strong>Without Price Driven<\/strong>: Negotiation can be time-consuming and stressful, with no assurance of a better deal.<\/p>","text":"","text_size_block":"","button_style":"solid","link_label":"","link":""}},"dadd4e13-74b1-4ea2-a74a-adb296179c5b":{"type":"column","disabled":true,"settings":{"item_color_scheme":"scheme-6","image":"shopify:\/\/shop_images\/auto-business-car-sales-a-couple-of-friends-of-2024-08-08-06-30-25-utc_1.jpg","image_cover":true,"image_overlay_opacity":50,"reduce_spaces":false,"content_full_width":false,"caption":"Price Driven","title":"<strong>Save Time and Effort<\/strong>","heading_size_block":"h2","subheading":"<p><strong>Price Driven<\/strong>: The streamlined process allows you to shop with confidence, saving time that would otherwise be spent on back-and-forth dealership negotiations.<br\/><br\/><\/p><p><strong>Without Price Driven<\/strong>: The car-buying process can be lengthy, with multiple trips to dealerships and prolonged negotiations.<\/p>","text":"","text_size_block":"","button_style":"solid","link_label":"","link":""}}},"block_order":["template--16766664409325__d9c67ae0-02b4-4b54-a01f-6f10449397c1-column-1","template--16766664409325__d9c67ae0-02b4-4b54-a01f-6f10449397c1-column-2","template--16766664409325__d9c67ae0-02b4-4b54-a01f-6f10449397c1-column-3","dadd4e13-74b1-4ea2-a74a-adb296179c5b"],"disabled":true,"settings":{"title":"Pre-Negotiated Pricing","heading_alignment":"center","heading_size":"h2","description":"","text_size_block":"medium","image_width":"full","image_ratio":"landscape","columns_desktop":2,"grid_type":"masonry","column_divider":false,"column_alignment":"left","background_style":"primary","button_label":"","button_link":"","color_scheme":"scheme-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":26,"padding_bottom":0}},"rich_text_CH6n68":{"type":"rich-text","blocks":{"heading_rPByHH":{"type":"heading","settings":{"heading":"Pre-Negotiated Pricing","heading_size":"h2"}}},"block_order":["heading_rPByHH"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","padding_top":26,"padding_bottom":0}},"featured_product_WD6KYC":{"type":"featured-product","blocks":{"text_HzziLk":{"type":"text","settings":{"text":"{{ section.settings.product.vendor }}","text_size_block":"medium","text_style":"uppercase"}},"title_E3LJRq":{"type":"title","settings":{"heading_size":"h2"}},"price_cCTHGm":{"type":"price","settings":{"price_size":"price--medium"}},"variant_picker_NQNiqR":{"type":"variant_picker","settings":{"color_scheme":"","picker_type":"button","swatch_picker_type":"button","swatch_shape":"square","swatches_style":"default"}},"buy_buttons_BV9KrG":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"show_gift_card_recipient":false}}},"block_order":["text_HzziLk","title_E3LJRq","price_cCTHGm","variant_picker_NQNiqR","buy_buttons_BV9KrG"],"settings":{"product":"pre-negotiated-pricing-service","color_scheme":"scheme-1","secondary_background":false,"secondary_background_color":"#f4f2ec","enable_sticky_info":false,"media_size":"medium","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"thumbnail_slider","thumbnail_position":"bottom","media_position":"left","mobile_thumbnails":"show","image_zoom":"none","hide_variants":false,"enable_video_looping":false,"padding_top":70,"padding_bottom":70}},"ss_wave_2_9Enkye":{"type":"ss-wave-2","settings":{"wave_height":120,"wave_height_mobile":80,"wave_animation":true,"wave_rotate":false,"wave_color":"#f4f2ec","background_color":"#ffffff","background_gradient":"","border_color":"#000000","margin_top":0,"margin_bottom":0,"padding_top":0,"padding_bottom":0,"padding_horizontal":0,"padding_horizontal_mobile":0,"full_width":true,"content_width":120,"border_thickness":0}},"help_and_feedback_mFaiKM":{"type":"help-and-feedback","blocks":{"collapsible_heading_x6ALmP":{"type":"collapsible_heading","settings":{"collapsible_heading":"FAQs","button_label":"See All","button_link":"shopify:\/\/pages\/faq","button_style_secondary":false}},"template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-1":{"type":"collapsible_row","settings":{"heading":"What Is Price Driven?","icon":"none","row_content":"<p>Price Driven is an online platform designed to simplify the car-buying process by providing transparent pricing information and pre-negotiated deals.<\/p>","page":"","open_collapsible_row":true}},"template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-2":{"type":"collapsible_row","settings":{"heading":"How Much Does It Cost To Use Price Driven?","icon":"none","row_content":"<p>The discount reports are pricing information is FREE! The pre-negotiated pricing service has a fee, but it's designed to save you money on your car purchase.<\/p>","page":"","open_collapsible_row":false}},"template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-3":{"type":"collapsible_row","settings":{"heading":"How Does Price Driven Work?","icon":"none","row_content":"<p>Price Driven offers two main services:<\/p><ul><li><strong>Free Invoice Pricing:<\/strong> Access to accurate invoice pricing information for various car models.<\/li><li><strong>Pre-Negotiated Prices:<\/strong> A paid service that guarantees pre-negotiated prices with selected dealerships.<\/li><\/ul>","page":"","open_collapsible_row":false}},"template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-4":{"type":"collapsible_row","settings":{"heading":"What Kind of Discounts Can I Expect with Price Driven?","icon":"none","row_content":"<p>The specific discounts vary depending on the car model and dealership, but many customers have reported saving from $500 to over $5,000<\/p>","page":"","open_collapsible_row":false}},"testimonial_heading_gHfR4J":{"type":"testimonial_heading","settings":{"testimonial_heading":"Customer Reviews"}},"testimonial_h7J3f6":{"type":"testimonial","settings":{"rating_star":5,"image":"shopify:\/\/shop_images\/african-american-woman-at-violet-dress-and-cap-2023-11-27-04-58-26-utc_1.jpg","full_name":"<strong>Olivia P, Winnipeg, MB<\/strong>","job_title":"Lexus RX | 2025","text":"I was able to save money on my Lexus RX through Price Driven. The platform provided all the necessary details to make an informed choice."}},"testimonial_rdyPDw":{"type":"testimonial","settings":{"rating_star":5,"image":"shopify:\/\/shop_images\/stylish-kuwaiti-man-2023-11-27-04-52-32-utc_1.jpg","full_name":"<strong>Michael S, Vancouver, BC<\/strong>","job_title":"Ford Escape | 2024","text":"Made purchasing a new SUV less stressful than my previous car. Knowing how much discount there is, helps with negotiating the price."}},"testimonial_hxYY38":{"type":"testimonial","settings":{"rating_star":5,"image":"shopify:\/\/shop_images\/smiling-stylish-couple-in-sunglasses-standing-near-2024-11-17-10-30-38-utc_1.jpg","full_name":"<strong>Lucas H, London, ON<\/strong>","job_title":"Kia Seltos | 2025","text":"Price Driven made buying my first new car so easy! The transparent pricing gave me confidence, and the pre-negotiated deal saved me hundreds."}}},"block_order":["collapsible_heading_x6ALmP","template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-1","template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-2","template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-3","template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-4","testimonial_heading_gHfR4J","testimonial_h7J3f6","testimonial_rdyPDw","testimonial_hxYY38"],"settings":{"heading":"","heading_alignment":"center","heading_size":"h2","text":"","color_scheme":"","faq_color_scheme":"","reviews_color_scheme":"","desktop_layout":"faq_first","padding_top":70,"padding_bottom":70}},"product_specifications_dL4pqN":{"type":"product-specifications","blocks":{"collapsible_row_MaraMj":{"type":"collapsible_row","settings":{"heading":"Material composition","collapsible_heading_size":"h4","icon":"none","row_content":"","page":"","open_collapsible_row":true}},"collapsible_row_bni4MJ":{"type":"collapsible_row","settings":{"heading":"Features","collapsible_heading_size":"h4","icon":"none","row_content":"","page":"","open_collapsible_row":false}},"collapsible_row_xm9JXg":{"type":"collapsible_row","settings":{"heading":"Dimensions and fitment","collapsible_heading_size":"h4","icon":"none","row_content":"","page":"","open_collapsible_row":false}},"collapsible_row_h6gznk":{"type":"collapsible_row","settings":{"heading":"Description","collapsible_heading_size":"h4","icon":"none","row_content":"","page":"","open_collapsible_row":false}}},"block_order":["collapsible_row_MaraMj","collapsible_row_bni4MJ","collapsible_row_xm9JXg","collapsible_row_h6gznk"],"disabled":true,"settings":{"heading":"Specifications","heading_size":"h2","subheading":"","text":"","heading_alignment":"left","color_scheme":"scheme-5","image":"shopify:\/\/shop_images\/beautiful-modern-cars-at-luxury-dealership-salon-2023-11-27-05-12-48-utc_1.jpg","image_ratio":"medium","desktop_layout":"image_second","padding_top":140,"padding_bottom":140}},"scrolling_text":{"type":"scrolling-banner","blocks":{"template--16766664409325__fee2a82b-1a9b-41ec-8ac2-d9d964c70db6-heading-1":{"type":"heading","settings":{"text":"<p>Best Car Deals In Canada<\/p>"}}},"block_order":["template--16766664409325__fee2a82b-1a9b-41ec-8ac2-d9d964c70db6-heading-1"],"settings":{"color_scheme":"","scroll_speed":8,"scroll_direction":"direction-left","items_padding":30,"padding_top":60,"padding_bottom":70}},"image_with_text_LygMg3":{"type":"image-with-text","blocks":{"caption_hcaGKX":{"type":"caption","settings":{"caption":"Price Driven","font_weight":"400","text_style":"caption-with-letter-spacing","text_size":"medium"}},"heading_VBNQL6":{"type":"heading","settings":{"heading":"<strong>Our Mission<\/strong>","heading_size":"h2"}},"text_LwKf9a":{"type":"text","settings":{"text":"<p>Our mission is to empower Canadians with transparent pricing, innovative tools, and a stress-free car buying experience. <\/p>","text_style":"body"}},"button_n6CjcH":{"type":"button","settings":{"button_label":"About Us","button_link":"shopify:\/\/pages\/about-us","button_style_secondary":false}}},"block_order":["caption_hcaGKX","heading_VBNQL6","text_LwKf9a","button_n6CjcH"],"settings":{"image":"shopify:\/\/shop_images\/marginalia-woman-driving-home-after-grocery-shopping.png","height":"small","desktop_image_width":"large","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","section_color_scheme":"scheme-2","color_scheme":"scheme-2","image_behavior":"none","mobile_content_alignment":"left","padding_top":70,"padding_bottom":70}},"related_products":{"type":"related-products","settings":{"title":"Similar Vehicles","heading_size":"h2","description":"","heading_alignment":"center","products_to_show":4,"columns_desktop":4,"enable_slideshow":false,"slides_number":4,"color_scheme":"scheme-2","image_ratio":"portrait","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","slides_number_mb":1,"padding_top":60,"padding_bottom":140}},"sticky_add_to_cart_it6b6P":{"type":"sticky-add-to-cart","settings":{"color_scheme":"","style":"right-side","sticky_width":"48","title_font_weight":"600"}},"compare_product_giMEjY":{"type":"compare-product","blocks":{"product_DNnGaN":{"type":"product","settings":{}},"description_Gihk77":{"type":"description","settings":{"label":"Product description"}},"metafield_XtWaBJ":{"type":"metafield","settings":{"label":"Material","metafield":""}},"metafield_VRjtth":{"type":"metafield","settings":{"label":"Year","metafield":""}},"metafield_nzmPRx":{"type":"metafield","settings":{"label":"Features","metafield":""}},"metafield_Qq6A6z":{"type":"metafield","settings":{"label":"Dimensions","metafield":""}}},"block_order":["product_DNnGaN","description_Gihk77","metafield_XtWaBJ","metafield_VRjtth","metafield_nzmPRx","metafield_Qq6A6z"],"settings":{}}},"order":["main","ss_featured_review_slider_VqB98f","ss_wave_2_HceCWF","ss_tabs_block_dBkTPn","hotspot_features","ss_comparison_table_2_UMKGwC","multicolumn","rich_text_CH6n68","featured_product_WD6KYC","ss_wave_2_9Enkye","help_and_feedback_mFaiKM","product_specifications_dL4pqN","scrolling_text","image_with_text_LygMg3","related_products","sticky_add_to_cart_it6b6P","compare_product_giMEjY"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "breadcrumbs_374JWg": {
+          "type": "breadcrumbs",
+          "settings": {
+            "color_scheme": "scheme-2",
+            "home": "Home",
+            "breadcrumbs_collection": true
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "price--medium"
+          }
+        },
+        "inventory_pbCRT8": {
+          "type": "inventory",
+          "settings": {
+            "inventory_base": 100,
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true,
+            "show_progress_bar": true,
+            "color_in_stock": "#2cb683",
+            "color_low_stock": "#ff353c"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "color_scheme": "",
+            "picker_type": "button",
+            "swatch_picker_type": "dropdown",
+            "swatch_shape": "none",
+            "swatches_style": "outlined"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "color_scheme": "",
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_EDfBfJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div data-review-quote-slider-target></div>"
+          }
+        },
+        "35c54d21-aabe-4447-934d-bc793c25fd66": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "You may also buy these products",
+            "product_list_limit": 10,
+            "pagination_style": "arrows",
+            "image_ratio": "portrait",
+            "enable_quick_add": true
+          }
+        },
+        "custom_liquid_ewhbkE": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id='ss-tabs-icon-insert-block'></div>"
+          }
+        },
+        "description_nKVqYi": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "text_size_block": "medium"
+          }
+        },
+        "text_xtRNAN": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Note:</strong> This is product is a PDF with the amount of 'Discount' available in this particular vehicle. It doesn't guarantee any discounts.",
+            "text_size": "text--small",
+            "text_color": "text-secondary"
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumbs_374JWg",
+        "title",
+        "price",
+        "inventory_pbCRT8",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_EDfBfJ",
+        "35c54d21-aabe-4447-934d-bc793c25fd66",
+        "custom_liquid_ewhbkE",
+        "description_nKVqYi",
+        "text_xtRNAN"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "medium",
+        "media_position": "left",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked-3",
+        "thumbnail_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 140
+      }
+    },
+    "ss_featured_review_slider_VqB98f": {
+      "type": "ss-featured-review-slider",
+      "blocks": {
+        "quote_Mq9LE8": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>\"</p><p><strong>Jordan from Price Driven handled every detail. They connected me with a dealer who honored their pre-negotiated pricing. I paid just above invoice price and saved  $2,210. Worth every penny!<br/><br/></strong>Patricia T</p>"
+          }
+        },
+        "quote_3WNbci": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p>\"</p><p><strong>Armed with the invoice price, I walked in confident and saved $3,000. The dealer didn’t waste my time!</strong></p><p>- <em>Emily C</em></p>"
+          }
+        },
+        "quote_wzL4yX": {
+          "type": "quote",
+          "settings": {
+            "quote": "<p><strong>\"</strong></p><p><strong>Price Driven tells you what the dealer pays for the car, but that doesn't mean you get to buy it at that cost.<br/><br/>But it does get you closer than going in blind.</strong></p><p>- Rex R</p>"
+          }
+        }
+      },
+      "block_order": [
+        "quote_Mq9LE8",
+        "quote_3WNbci",
+        "quote_wzL4yX"
+      ],
+      "settings": {
+        "example": "<div data-review-quote-slider-target></div>",
+        "pagination_color": "#7e6415",
+        "bg_color": "#f4f2ec",
+        "text_color": "#fb542f",
+        "border_radius": 32,
+        "font_size": 16,
+        "custom_classes": ""
+      }
+    },
+    "ss_wave_2_HceCWF": {
+      "type": "ss-wave-2",
+      "settings": {
+        "wave_height": 120,
+        "wave_height_mobile": 80,
+        "wave_animation": true,
+        "wave_rotate": true,
+        "wave_color": "#f4f2ec",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0
+      }
+    },
+    "ss_tabs_block_dBkTPn": {
+      "type": "ss-tabs-block",
+      "blocks": {
+        "tab_8nKL6w": {
+          "type": "tab",
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "heart",
+            "image": "shopify://shop_images/car_2.svg",
+            "question": "Car Description",
+            "answer": "",
+            "answer_html": "{{ product.description }}"
+          }
+        },
+        "tab_BtMiCp": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "truck",
+            "question": "Shipping",
+            "answer": "<p>This is an answer</p>",
+            "answer_html": ""
+          }
+        },
+        "tab_rP4yGD": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "svg_color": "#121212",
+            "icon": "return_arrow",
+            "question": "Returns",
+            "answer": "<p>This is an answer</p>",
+            "answer_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_8nKL6w",
+        "tab_BtMiCp",
+        "tab_rP4yGD"
+      ],
+      "settings": {
+        "close_other": false,
+        "open_default": false,
+        "subtitle": "",
+        "subtitle_color": "#121212",
+        "subtitle_font_size": 10,
+        "title": "",
+        "title_font_size": 10,
+        "title_color": "#121212",
+        "arrow_size": 14,
+        "arrow_color": "#121212",
+        "icon_width": 22,
+        "text_color": "#121212",
+        "question_font_size": 13,
+        "answer_color": "#121212",
+        "answer_font_size": 12,
+        "border_color": "#f2f2f2",
+        "background-color": "#ffffff",
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "padding_x_desktop": 0,
+        "padding_x": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "button_padding_y": 10
+      }
+    },
+    "hotspot_features": {
+      "type": "image-hubspot-banner",
+      "blocks": {
+        "hotspot_item_Vnme7E": {
+          "type": "hotspot_item",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "heading": "The Free Discount Report For New Cars In <strong>Canada!</strong>",
+            "bullet_color": "",
+            "bullet_bg": "",
+            "horizontal_position": 12,
+            "vertical_position": 44,
+            "horizontal_position_mobile": 7,
+            "vertical_position_mobile": 32,
+            "bubble_position": "bubble-bottom",
+            "hide_mobile": false
+          }
+        },
+        "hotspot_item_CzQwBr": {
+          "type": "hotspot_item",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "heading": "<strong>The amount the dealership buys the car from the manufacturer</strong>",
+            "bullet_color": "",
+            "bullet_bg": "",
+            "horizontal_position": 53,
+            "vertical_position": 57,
+            "horizontal_position_mobile": 50,
+            "vertical_position_mobile": 59,
+            "bubble_position": "bubble-bottom",
+            "hide_mobile": false
+          }
+        },
+        "hotspot_item_KTekHw": {
+          "type": "hotspot_item",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "heading": "<strong>Each trim offers a variety of features and equipment</strong>",
+            "bullet_color": "",
+            "bullet_bg": "",
+            "horizontal_position": 12,
+            "vertical_position": 57,
+            "horizontal_position_mobile": 8,
+            "vertical_position_mobile": 59,
+            "bubble_position": "bubble-bottom",
+            "hide_mobile": false
+          }
+        },
+        "hotspot_item_wmjXbr": {
+          "type": "hotspot_item",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "heading": "<strong>The price the automaker suggests its dealers ask for the vehicle</strong>",
+            "bullet_color": "",
+            "bullet_bg": "",
+            "horizontal_position": 34,
+            "vertical_position": 57,
+            "horizontal_position_mobile": 32,
+            "vertical_position_mobile": 59,
+            "bubble_position": "bubble-bottom",
+            "hide_mobile": false
+          }
+        },
+        "hotspot_item_UeX6JQ": {
+          "type": "hotspot_item",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "heading": "<strong>The amount of \"Discount\" there is!</strong>",
+            "bullet_color": "",
+            "bullet_bg": "",
+            "horizontal_position": 74,
+            "vertical_position": 57,
+            "horizontal_position_mobile": 72,
+            "vertical_position_mobile": 59,
+            "bubble_position": "bubble-bottom",
+            "hide_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_item_Vnme7E",
+        "hotspot_item_CzQwBr",
+        "hotspot_item_KTekHw",
+        "hotspot_item_wmjXbr",
+        "hotspot_item_UeX6JQ"
+      ],
+      "settings": {
+        "heading": "Free Discount Report",
+        "heading_alignment": "center",
+        "heading_size": "h2",
+        "text": "<p>Know the Discounts Before You Buy with Our <strong>Free</strong> Car Discount Reports!</p>",
+        "text_size_block": "medium",
+        "image": "shopify://shop_images/Screenshot_2024-11-30_at_6.26.27_PM-2.jpg",
+        "color_scheme": "scheme-1",
+        "section_full_width": false,
+        "section_container_width": false,
+        "hide_scroll_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 42
+      }
+    },
+    "ss_comparison_table_2_UMKGwC": {
+      "type": "ss-comparison-table-2",
+      "blocks": {
+        "item_TwqTtG": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Upfront (Discount) Pricing",
+            "first_icon": "yes",
+            "second_icon": "yes",
+            "third_icon": "no"
+          }
+        },
+        "item_9tTFrA": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Support Availability",
+            "first_icon": "yes",
+            "second_icon": "yes",
+            "third_icon": "no"
+          }
+        },
+        "item_xPVJx9": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Guaranteed Savings",
+            "first_icon": "yes",
+            "second_icon": "no",
+            "third_icon": "no"
+          }
+        },
+        "item_THhKiW": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Negotiation Required",
+            "first_icon": "no",
+            "second_icon": "yes",
+            "third_icon": "yes"
+          }
+        },
+        "item_6DR3re": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Hidden Fees",
+            "first_icon": "no",
+            "second_icon": "dont_know",
+            "third_icon": "dont_know"
+          }
+        }
+      },
+      "block_order": [
+        "item_TwqTtG",
+        "item_9tTFrA",
+        "item_xPVJx9",
+        "item_THhKiW",
+        "item_6DR3re"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "You vs Dealerships",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "heading_size": 50,
+        "heading_height": 100,
+        "heading_align": "center",
+        "table_mt": 50,
+        "table_radius": 10,
+        "table_border_thickness": 3,
+        "table_column_active": "1",
+        "table_column_active_radius": 10,
+        "first_heading": "Pre-Negotiated Pricing",
+        "second_heading": "Free Discount Reports",
+        "third_heading": "Without Price Driven",
+        "table_heading_custom": false,
+        "table_heading_font": "assistant_n4",
+        "table_heading_size": 24,
+        "table_heading_size_mobile": 10,
+        "table_heading_height": 100,
+        "table_heading_align": "center",
+        "table_heading_padding_horizontal": 20,
+        "table_heading_padding_horizontal_mobile": 4,
+        "table_heading_padding_vertical": 20,
+        "table_heading_padding_vertical_mobile": 10,
+        "table_row_padding_horizontal": 20,
+        "table_row_padding_horizontal_mobile": 4,
+        "table_row_padding_vertical": 20,
+        "table_row_padding_vertical_mobile": 10,
+        "table_row_heading_custom": false,
+        "table_row_heading_font": "assistant_n4",
+        "table_row_heading_size": 26,
+        "table_row_heading_size_mobile": 10,
+        "table_row_heading_height": 100,
+        "table_row_heading_align": "center",
+        "table_icon_size": 32,
+        "table_icon_size_mobile": 20,
+        "heading_color": "#162471",
+        "table_border_color": "#d7d8d5",
+        "table_heading_color": "#162471",
+        "table_heading_active_color": "#ffffff",
+        "table_column_active_bg_color": "#162471",
+        "table_row_heading_color": "#040200",
+        "table_icon_color": "#162471",
+        "table_icon_active_color": "#ffffff",
+        "background_color": "#f6f4f2",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 150,
+        "border_thickness": 0
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16766664409325__d9c67ae0-02b4-4b54-a01f-6f10449397c1-column-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "item_color_scheme": "scheme-6",
+            "image": "shopify://shop_images/professional-car-dealer-with-buyer-inside-vehicle-2024-07-12-00-40-46-utc_1.jpg",
+            "image_cover": true,
+            "image_overlay_opacity": 50,
+            "reduce_spaces": false,
+            "content_full_width": false,
+            "caption": "Price Driven",
+            "title": "<strong>Guaranteed Savings</strong>",
+            "heading_size_block": "h2",
+            "subheading": "<p><strong>Price Driven</strong>: Pre-negotiated pricing ensures you get a specific discount with no guesswork.<br/><br/></p><p><strong>Without Price Driven</strong>: You may still need to negotiate at the dealership, and savings aren't guaranteed.</p>",
+            "text": "",
+            "text_size_block": "",
+            "button_style": "solid",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16766664409325__d9c67ae0-02b4-4b54-a01f-6f10449397c1-column-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "item_color_scheme": "scheme-3",
+            "image": "shopify://shop_images/man-in-a-car-dealership-chooses-a-car-2024-03-25-23-37-31-utc_1_126a1805-c59a-4698-906d-e6fce015e0cd.jpg",
+            "image_cover": true,
+            "image_overlay_opacity": 50,
+            "reduce_spaces": false,
+            "content_full_width": false,
+            "caption": "Price Driven",
+            "title": "<strong>Convenient Online Platform</strong>",
+            "heading_size_block": "h2",
+            "subheading": "<p><strong>Price Driven</strong>: Shop for your vehicle from the comfort of your home with an easy-to-navigate online platform that provides all the information you need in one place.<br/><br/></p><p><strong>Without Price Driven</strong>: You’ll likely have to visit multiple dealerships in person, often not knowing exactly what each has to offer.</p>",
+            "text": "",
+            "text_size_block": "",
+            "button_style": "solid",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16766664409325__d9c67ae0-02b4-4b54-a01f-6f10449397c1-column-3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "item_color_scheme": "scheme-3",
+            "image": "shopify://shop_images/car-parked-in-luxury-showroom-car-dealership-offi-2024-11-27-01-53-37-utc_1.jpg",
+            "image_cover": true,
+            "image_overlay_opacity": 50,
+            "reduce_spaces": false,
+            "content_full_width": false,
+            "caption": "Price Driven",
+            "title": "<strong>No Negotiation Stress</strong>",
+            "heading_size_block": "h2",
+            "subheading": "<p><strong>Price Driven</strong>: Skip the haggling with dealers, as the price is already set and agreed upon.<br/><br/></p><p><strong>Without Price Driven</strong>: Negotiation can be time-consuming and stressful, with no assurance of a better deal.</p>",
+            "text": "",
+            "text_size_block": "",
+            "button_style": "solid",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "dadd4e13-74b1-4ea2-a74a-adb296179c5b": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "item_color_scheme": "scheme-6",
+            "image": "shopify://shop_images/auto-business-car-sales-a-couple-of-friends-of-2024-08-08-06-30-25-utc_1.jpg",
+            "image_cover": true,
+            "image_overlay_opacity": 50,
+            "reduce_spaces": false,
+            "content_full_width": false,
+            "caption": "Price Driven",
+            "title": "<strong>Save Time and Effort</strong>",
+            "heading_size_block": "h2",
+            "subheading": "<p><strong>Price Driven</strong>: The streamlined process allows you to shop with confidence, saving time that would otherwise be spent on back-and-forth dealership negotiations.<br/><br/></p><p><strong>Without Price Driven</strong>: The car-buying process can be lengthy, with multiple trips to dealerships and prolonged negotiations.</p>",
+            "text": "",
+            "text_size_block": "",
+            "button_style": "solid",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16766664409325__d9c67ae0-02b4-4b54-a01f-6f10449397c1-column-1",
+        "template--16766664409325__d9c67ae0-02b4-4b54-a01f-6f10449397c1-column-2",
+        "template--16766664409325__d9c67ae0-02b4-4b54-a01f-6f10449397c1-column-3",
+        "dadd4e13-74b1-4ea2-a74a-adb296179c5b"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Pre-Negotiated Pricing",
+        "heading_alignment": "center",
+        "heading_size": "h2",
+        "description": "",
+        "text_size_block": "medium",
+        "image_width": "full",
+        "image_ratio": "landscape",
+        "columns_desktop": 2,
+        "grid_type": "masonry",
+        "column_divider": false,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 26,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_CH6n68": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rPByHH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pre-Negotiated Pricing",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rPByHH"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "padding_top": 26,
+        "padding_bottom": 0
+      }
+    },
+    "featured_product_WD6KYC": {
+      "type": "featured-product",
+      "blocks": {
+        "text_HzziLk": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_size_block": "medium",
+            "text_style": "uppercase"
+          }
+        },
+        "title_E3LJRq": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price_cCTHGm": {
+          "type": "price",
+          "settings": {
+            "price_size": "price--medium"
+          }
+        },
+        "variant_picker_NQNiqR": {
+          "type": "variant_picker",
+          "settings": {
+            "color_scheme": "",
+            "picker_type": "button",
+            "swatch_picker_type": "button",
+            "swatch_shape": "square",
+            "swatches_style": "default"
+          }
+        },
+        "buy_buttons_BV9KrG": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "text_HzziLk",
+        "title_E3LJRq",
+        "price_cCTHGm",
+        "variant_picker_NQNiqR",
+        "buy_buttons_BV9KrG"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "pre-negotiated-pricing-service",
+        "color_scheme": "scheme-1",
+        "secondary_background": false,
+        "secondary_background_color": "#f4f2ec",
+        "enable_sticky_info": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "thumbnail_position": "bottom",
+        "media_position": "left",
+        "mobile_thumbnails": "show",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "ss_wave_2_9Enkye": {
+      "type": "ss-wave-2",
+      "settings": {
+        "wave_height": 120,
+        "wave_height_mobile": 80,
+        "wave_animation": true,
+        "wave_rotate": false,
+        "wave_color": "#f4f2ec",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0
+      }
+    },
+    "help_and_feedback_mFaiKM": {
+      "type": "help-and-feedback",
+      "blocks": {
+        "collapsible_heading_x6ALmP": {
+          "type": "collapsible_heading",
+          "settings": {
+            "collapsible_heading": "FAQs",
+            "button_label": "See All",
+            "button_link": "shopify://pages/faq",
+            "button_style_secondary": false
+          }
+        },
+        "template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What Is Price Driven?",
+            "icon": "none",
+            "row_content": "<p>Price Driven is an online platform designed to simplify the car-buying process by providing transparent pricing information and pre-negotiated deals.</p>",
+            "page": "",
+            "open_collapsible_row": true
+          }
+        },
+        "template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How Much Does It Cost To Use Price Driven?",
+            "icon": "none",
+            "row_content": "<p>The discount reports are pricing information is FREE! The pre-negotiated pricing service has a fee, but it's designed to save you money on your car purchase.</p>",
+            "page": "",
+            "open_collapsible_row": false
+          }
+        },
+        "template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How Does Price Driven Work?",
+            "icon": "none",
+            "row_content": "<p>Price Driven offers two main services:</p><ul><li><strong>Free Invoice Pricing:</strong> Access to accurate invoice pricing information for various car models.</li><li><strong>Pre-Negotiated Prices:</strong> A paid service that guarantees pre-negotiated prices with selected dealerships.</li></ul>",
+            "page": "",
+            "open_collapsible_row": false
+          }
+        },
+        "template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What Kind of Discounts Can I Expect with Price Driven?",
+            "icon": "none",
+            "row_content": "<p>The specific discounts vary depending on the car model and dealership, but many customers have reported saving from $500 to over $5,000</p>",
+            "page": "",
+            "open_collapsible_row": false
+          }
+        },
+        "testimonial_heading_gHfR4J": {
+          "type": "testimonial_heading",
+          "settings": {
+            "testimonial_heading": "Customer Reviews"
+          }
+        },
+        "testimonial_h7J3f6": {
+          "type": "testimonial",
+          "settings": {
+            "rating_star": 5,
+            "image": "shopify://shop_images/african-american-woman-at-violet-dress-and-cap-2023-11-27-04-58-26-utc_1.jpg",
+            "full_name": "<strong>Olivia P, Winnipeg, MB</strong>",
+            "job_title": "Lexus RX | 2025",
+            "text": "I was able to save money on my Lexus RX through Price Driven. The platform provided all the necessary details to make an informed choice."
+          }
+        },
+        "testimonial_rdyPDw": {
+          "type": "testimonial",
+          "settings": {
+            "rating_star": 5,
+            "image": "shopify://shop_images/stylish-kuwaiti-man-2023-11-27-04-52-32-utc_1.jpg",
+            "full_name": "<strong>Michael S, Vancouver, BC</strong>",
+            "job_title": "Ford Escape | 2024",
+            "text": "Made purchasing a new SUV less stressful than my previous car. Knowing how much discount there is, helps with negotiating the price."
+          }
+        },
+        "testimonial_hxYY38": {
+          "type": "testimonial",
+          "settings": {
+            "rating_star": 5,
+            "image": "shopify://shop_images/smiling-stylish-couple-in-sunglasses-standing-near-2024-11-17-10-30-38-utc_1.jpg",
+            "full_name": "<strong>Lucas H, London, ON</strong>",
+            "job_title": "Kia Seltos | 2025",
+            "text": "Price Driven made buying my first new car so easy! The transparent pricing gave me confidence, and the pre-negotiated deal saved me hundreds."
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_heading_x6ALmP",
+        "template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-1",
+        "template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-2",
+        "template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-3",
+        "template--16766664605933__213deb17-cc31-4e82-8167-e558eae2a42d-collapsible_row-4",
+        "testimonial_heading_gHfR4J",
+        "testimonial_h7J3f6",
+        "testimonial_rdyPDw",
+        "testimonial_hxYY38"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_alignment": "center",
+        "heading_size": "h2",
+        "text": "",
+        "color_scheme": "",
+        "faq_color_scheme": "",
+        "reviews_color_scheme": "",
+        "desktop_layout": "faq_first",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "product_specifications_dL4pqN": {
+      "type": "product-specifications",
+      "blocks": {
+        "collapsible_row_MaraMj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Material composition",
+            "collapsible_heading_size": "h4",
+            "icon": "none",
+            "row_content": "",
+            "page": "",
+            "open_collapsible_row": true
+          }
+        },
+        "collapsible_row_bni4MJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Features",
+            "collapsible_heading_size": "h4",
+            "icon": "none",
+            "row_content": "",
+            "page": "",
+            "open_collapsible_row": false
+          }
+        },
+        "collapsible_row_xm9JXg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Dimensions and fitment",
+            "collapsible_heading_size": "h4",
+            "icon": "none",
+            "row_content": "",
+            "page": "",
+            "open_collapsible_row": false
+          }
+        },
+        "collapsible_row_h6gznk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Description",
+            "collapsible_heading_size": "h4",
+            "icon": "none",
+            "row_content": "",
+            "page": "",
+            "open_collapsible_row": false
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_MaraMj",
+        "collapsible_row_bni4MJ",
+        "collapsible_row_xm9JXg",
+        "collapsible_row_h6gznk"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Specifications",
+        "heading_size": "h2",
+        "subheading": "",
+        "text": "",
+        "heading_alignment": "left",
+        "color_scheme": "scheme-5",
+        "image": "shopify://shop_images/beautiful-modern-cars-at-luxury-dealership-salon-2023-11-27-05-12-48-utc_1.jpg",
+        "image_ratio": "medium",
+        "desktop_layout": "image_second",
+        "padding_top": 140,
+        "padding_bottom": 140
+      }
+    },
+    "scrolling_text": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "template--16766664409325__fee2a82b-1a9b-41ec-8ac2-d9d964c70db6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Best Car Deals In Canada</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16766664409325__fee2a82b-1a9b-41ec-8ac2-d9d964c70db6-heading-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "scroll_speed": 8,
+        "scroll_direction": "direction-left",
+        "items_padding": 30,
+        "padding_top": 60,
+        "padding_bottom": 70
+      }
+    },
+    "image_with_text_LygMg3": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_hcaGKX": {
+          "type": "caption",
+          "settings": {
+            "caption": "Price Driven",
+            "font_weight": "400",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_VBNQL6": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Our Mission</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_LwKf9a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our mission is to empower Canadians with transparent pricing, innovative tools, and a stress-free car buying experience. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_n6CjcH": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Us",
+            "button_link": "shopify://pages/about-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_hcaGKX",
+        "heading_VBNQL6",
+        "text_LwKf9a",
+        "button_n6CjcH"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/marginalia-woman-driving-home-after-grocery-shopping.png",
+        "height": "small",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
+    "related_products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "title": "Similar Vehicles",
+        "heading_size": "h2",
+        "description": "",
+        "heading_alignment": "center",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "enable_slideshow": false,
+        "slides_number": 4,
+        "color_scheme": "scheme-2",
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "slides_number_mb": 1,
+        "padding_top": 60,
+        "padding_bottom": 140
+      }
+    },
+    "sticky_add_to_cart_it6b6P": {
+      "type": "sticky-add-to-cart",
+      "settings": {
+        "color_scheme": "",
+        "style": "right-side",
+        "sticky_width": "48",
+        "title_font_weight": "600"
+      }
+    },
+    "compare_product_giMEjY": {
+      "type": "compare-product",
+      "blocks": {
+        "product_DNnGaN": {
+          "type": "product",
+          "settings": {}
+        },
+        "description_Gihk77": {
+          "type": "description",
+          "settings": {
+            "label": "Product description"
+          }
+        },
+        "metafield_XtWaBJ": {
+          "type": "metafield",
+          "settings": {
+            "label": "Material",
+            "metafield": ""
+          }
+        },
+        "metafield_VRjtth": {
+          "type": "metafield",
+          "settings": {
+            "label": "Year",
+            "metafield": ""
+          }
+        },
+        "metafield_nzmPRx": {
+          "type": "metafield",
+          "settings": {
+            "label": "Features",
+            "metafield": ""
+          }
+        },
+        "metafield_Qq6A6z": {
+          "type": "metafield",
+          "settings": {
+            "label": "Dimensions",
+            "metafield": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_DNnGaN",
+        "description_Gihk77",
+        "metafield_XtWaBJ",
+        "metafield_VRjtth",
+        "metafield_nzmPRx",
+        "metafield_Qq6A6z"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "ss_featured_review_slider_VqB98f",
+    "ss_wave_2_HceCWF",
+    "ss_tabs_block_dBkTPn",
+    "hotspot_features",
+    "ss_comparison_table_2_UMKGwC",
+    "multicolumn",
+    "rich_text_CH6n68",
+    "featured_product_WD6KYC",
+    "ss_wave_2_9Enkye",
+    "help_and_feedback_mFaiKM",
+    "product_specifications_dL4pqN",
+    "scrolling_text",
+    "image_with_text_LygMg3",
+    "related_products",
+    "sticky_add_to_cart_it6b6P",
+    "compare_product_giMEjY"
+  ]
+}
