@@ -585,7 +585,7 @@
         "pay_now_button_label": "Pay now"
       },
       "marketing": {
-        "accept_marketing_checkbox_label": "Send Details to This Email Address"
+        "accept_marketing_checkbox_label": "Confirm my email to receive order details"
       }
     },
     "links": {
