@@ -1114,6 +1114,7 @@
         "collection_WamBbh",
         "collection_AVzyCU"
       ],
+      "disabled": true,
       "settings": {
         "title": "Free Discount Reports By Style",
         "heading_alignment": "center",
@@ -1493,6 +1494,7 @@
         "paragraph_DLapaq",
         "email_form_iqamrG"
       ],
+      "disabled": true,
       "name": "t:sections.email-signup-banner.presets.name",
       "settings": {
         "show_background_image": true,
@@ -1509,6 +1511,7 @@
     },
     "f6e4d7b0-8b93-4391-bc83-1d3b618d2ed3": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Blog",
         "heading_size": "h2",
